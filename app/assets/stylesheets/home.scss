@@ -15,3 +15,22 @@ body{
     font-family: "Hiragino Sans W9";
     src: local(HiraginoSans-W9);
 }
+
+.round-image{
+width:100px;
+height:100px;
+border-radius:50%;
+box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
+}
+
+.round-box{
+border-radius:5%;
+box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
+}
+ .shadow-box{
+ box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
+ }
+ .border-css{
+   border-bottom:dotted 5px Turquoise;
+   border-left:solid 5px Turquoise;
+ }
