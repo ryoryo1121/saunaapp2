@@ -40,87 +40,70 @@
 </nav>
 
 <!-- カルーセル  -->
-  <div class="container">
-
-    <div id="main_visual" class="carousel slide" data-ride="carousel" class="mx-auto">
-      <!-- スライド機能 -->
-      <ol class="carousel-indicators">
-        <li data-target="#main_visual" data-slide-to="0" class="active"></li>
-        <li data-target="#main_visual" data-slide-to="1"></li>
-        <li data-target="#main_visual" data-slide-to="2" ></li>
-      </ol>
-      <div class="carousel-inner">
-        <!-- スライド1 -->
-        <div class="carousel-item active">
-          <%= image_tag( "topimage1.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-          <div class="carousel-caption d-none d-md-block">
-            <h2>サウナにいきたくなる</h2>
-            <p></p>
-          </div>
-        </div>
-        <!-- スライド2 -->
-        <div class="carousel-item">
-        <%= image_tag( "topimage2.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-          <div class="carousel-caption d-none d-md-block">
-            <h2>サウナにいきたい</h2>
-            <p></p>
-          </div>
-        </div>
-        <!-- スライド3 -->
-        <div class="carousel-item">
-          <%= image_tag( "topimage33.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-          <div class="carousel-caption d-none d-md-block">
-            <h2>サウナが呼んでいる</h2>
-            <p></p>
-          </div>
+<div class="container">
+  <div id="main_visual" class="carousel slide" data-ride="carousel" class="mx-auto">
+    <!-- スライド機能 -->
+    <ol class="carousel-indicators">
+      <li data-target="#main_visual" data-slide-to="0" class="active"></li>
+      <li data-target="#main_visual" data-slide-to="1"></li>
+      <li data-target="#main_visual" data-slide-to="2" ></li>
+    </ol>
+    <div class="carousel-inner">
+      <!-- スライド1 -->
+      <div class="carousel-item active">
+        <%= image_tag( "topimage1.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>サウナにいきたくなる</h2>
+          <p></p>
         </div>
       </div>
-      <!-- 次へ進むと前に戻るボタン -->
-      <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">前に戻る</span>
-      </a>
-      <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">次に進む</span>
-      </a>
-    </div>
-  </div>
-    <!-- コピペしたとこ -->
-    <div class="uq-topHero_content">
-          <h1 class="uq-topHero_copy">お気に入りのサウナ施設が見つかる日本最大のサウナ検索サイト</h1>
-
-          <form class="js-searchForm" action="https://sauna-ikitai.com/search">
-            <div class="u-displayNone js-hidden"></div>
-            <div class="uq-topSearch">
-              <ul class="uq-topSearch_tabs">
-                <li class="uq-topSearch_tab">
-                  <a class="is-active js-tabTrigger">キーワードから探す</a>
-                </li>
-                <li class="uq-topSearch_tab">
-                  <a class="js-tabTrigger js-modalTrigger" data-modal-type="filterArea">都道府県から探す</a>
-                </li>
-                <li class="uq-topSearch_tab">
-                  <a class="js-tabTrigger js-modalTrigger" data-modal-type="filterConditions">特徴から探す</a>
-                </li>
-              </ul>
-
-              <div class="uq-topSearch_keyword">
-                <div class="c-formText c-formText--sm">
-                  <input class="c-formText" type="text" name="keyword" value="" placeholder="施設名・エリア・キーワード">
-                  <button class="uq-topSearch_button" type="submit">検  索</button>
-                </div>
-              </div>
-            </div>
-          </form>
-
-          <div class="uq-topGps">
-            <a class="js-filterGeoSubmit"><span>現在地から探す</span></a>
-          </div>
+      <!-- スライド2 -->
+      <div class="carousel-item">
+        <%= image_tag( "topimage2.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>サウナにいきたい</h2>
+          <p></p>
         </div>
-
-
-<!-- コピペおわり -->
+      </div>
+      <!-- スライド3 -->
+      <div class="carousel-item">
+        <%= image_tag( "topimage33.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>サウナが呼んでいる</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!-- 次へ進むと前に戻るボタン -->
+    <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">前に戻る</span>
+    </a>
+    <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">次に進む</span>
+    </a>
+  </div>
+</div>
+<!-- 検索 -->
+<div class="container" style="text-align:center">
+    <p>     </p>
+    <%= image_tag( "logo.png",class: "img-thumbnail raouded mx-auto d-block", alt: "Logo" , size: "200x200") %>
+    <p>     </p>
+    <p class="font-weight-bold h5">サウナを探す</p>
+  <div class="btn-group row justify-content-center" role="group" aria-label="検索ボタン">
+    <a href="#" class="btn btn-info  col-4" >都道府県から探す</a>
+    <a href="#" class="btn btn-info  col-4" >特徴から探す</a>
+    <a href="#" class="btn btn-info  col-4" >現在地から探す</a>
+  </div>
+  <div class="input-group row justify-content-center">
+    <input type="text" class="form-control col-2" placeholder="キーワードを入力" aria-label="キーワードを入力"  >
+    <a class="input-group-append">
+      <button class="btn btn-info " type="button">検索</button>
+    </a>
+  </div>
+</div>
+<!-- 検索終わり -->
 <!-- メイン -->
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
@@ -129,8 +112,32 @@
 
   </div>
   <!-- コンテンツ２ おすすめサウナ施設 -->
-  <div class= "py-4">
-
+  <div class= "container py-4 bg-light">
+    <div class="row">
+    <!-- ここに繰り返し分をいれる -->
+     <% a = [0,1,2]%>
+     <% a.each do %>
+      <div class="col mb-4">
+        <div class="card mb-3" style="max-width: 25rem;">
+          <%= image_tag( "logo.png",class: "card-img-top", alt: "photo" , size: "200x200") %>
+          <div class="card-dody">
+            <h4 class="card-title">サウナ一番</h4>
+            <p class="card-text">地域で一番のサウナです。</p>
+          </div>
+          <!-- 設備リスト -->
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" >サウナの温度</li>
+            <li class="list-group-item" >水風呂の温度</li>
+            <li class="list-group-item" >サウナテレビ</li>
+          </ul>
+          <div class="card-dody">
+            <a href="#" class="card-link btn btn-info ">詳しく見る</a>
+            <a href="#" class="card-link btn btn-info ">あとで見る</a>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    </div>
   </div>
   <!-- コンテンツ３ サウナニュース-->
   <div class= "py-4">

@@ -5,3 +5,13 @@
 body{
   background-color: lightgray;
 }
+
+// ボタンから文字をはみ出なくする
+// .btn {
+// white-space: normal;
+// }
+
+*{
+    font-family: "Hiragino Sans W9";
+    src: local(HiraginoSans-W9);
+}
