@@ -1,0 +1,160 @@
+<!-- ここから上はあとで消す -->
+<!--ヘッダー -->
+<header class= "py-4 bg-dark text-light">
+  <div class ="container text-center">
+    <h1><a href="#">  <%= image_tag( "title_logo_2.png",alt: "Title_Logo" ) %></a></h1>
+  </div>
+</header>
+
+<!-- ナビBAR -->
+<nav class="navbar navbar-dark navbar-expand-md bg-info sticky-top" >
+  <!-- サブ -->
+  <div class="container" >
+    <a class="navbar-brand" href="#">
+    <%= image_tag( "logo.png",alt: "Logo" , size: "50x50") %>
+    </a>
+    <!-- 切り替えボタン -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーション切替">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">みんなのサウナなう<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">サウナ一覧</a>
+        <a class="nav-item nav-link active" href="#">サウナ登録</a>
+        <a class="nav-item nav-link disabled" href="#"></a>
+      </div>
+    </div>
+    <!-- ドロップダウン -->
+  <ul class="nav  nav-pills bg-dark">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">みんなのサウナなう</a>
+        <a class="dropdown-item" href="#">お気に入りサウナ</a>
+        <a class="dropdown-item" href="#">アカウント</a>
+        <a class="dropdown-item" href="#">ログアウト</a>
+      </div>
+    </li>
+  </ul>
+
+</nav>
+
+<!-- ここから上はあとで消す -->
+
+
+<!-- メインいまはコピペ -->
+<main>
+  <div class="container">
+    <h2>Contact</h2>
+    <p>カフェ Mr. M COFFEE（ミスターエムコーヒー）への お問合せは、こちらのフォームをご利用ください。</p>
+  </div>
+  <!-- お問合せフォーム -->
+  <div class="py-3">
+    <div class="container">
+      <h3 class="mb-3">お問合せフォーム</h3>
+      <!-- フォーム -->
+      <form>
+        <!-- お名前 -->
+        <div class="form-group row">
+          <label for="name" class="col-md-3 col-form-label">
+            お名前 <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="name" required>
+          </div>
+        </div>
+        <!-- メールアドレス -->
+        <div class="form-group row">
+          <label for="email" class="col-md-3 col-form-label">
+            メールアドレス <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+        <!-- きっかけ -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-md-3">
+              Mr. M COFFEEを知ったきっかけ
+            </legend>
+            <div class="col-md-9">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio1" value="answer1">
+                <label class="form-check-label" for="radio1">口コミ</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio2" value="answer2">
+                <label class="form-check-label" for="radio2">検索エンジン</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio3" value="answer3">
+                <label class="form-check-label" for="radio3">検索エンジン</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <!-- 種類 -->
+        <div class="form-group row">
+          <label for="category" class="col-md-3 col-form-label">
+            お問合せ種類 <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <select class="form-control" id="category" name="category">
+              <option value="category1">ご予約について</option>
+              <option value="category2">委託販売について</option>
+              <option value="category3">その他のお問合せ</option>
+            </select>
+          </div>
+        </div>
+        <!-- 内容 -->
+        <div class="form-group row">
+          <label for="message" class="col-md-3 col-form-label">
+           お問合せ内容 <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <textarea class="form-control" id="message" rows="8" name="message"></textarea>
+          </div>
+        </div>
+        <!-- 確認ボタン -->
+        <div class="form-group row justify-content-end">
+          <div class="col-md-9">
+            <button type="submit" class="btn btn-primary">確認する</button>
+          </div>
+        </div>
+      </form>
+      <!-- /フォーム -->
+    </div>
+  </div>
+  <!-- / お問合せフォーム -->
+</main>
+<!-- /メインいまはこぴぺ -->
+
+
+
+
+
+
+<!-- ここから下もあとで消す -->
+
+<!-- フッター -->
+<footer class="py-4 bg-dark text-light">
+  <div class="container text-center">
+    <ul class="nav justify-content-center mb-3">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Top</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <p><small>Copyright &copy;2018 chanryo.</small></p>
+  </div>
+</footer>
