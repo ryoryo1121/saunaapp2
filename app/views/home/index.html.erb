@@ -1,5 +1,5 @@
 <!--ヘッダー -->
-<header class= "py-4">
+<header class= "py-4 bg-dark text-light">
   <div class ="container text-center">
     <h1><a href="#">サウナなう</a></h1>
   </div>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <!-- ドロップダウン -->
-  <ul class="nav  nav-pills">
+  <ul class="nav  nav-pills bg-dark">
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
       <div class="dropdown-menu">
@@ -92,13 +92,13 @@
     <p>     </p>
     <p class="font-weight-bold h5">サウナを探す</p>
   <div class="btn-group row justify-content-center" role="group" aria-label="検索ボタン">
-    <a href="#" class="btn btn-info  col-4" >都道府県から探す</a>
-    <a href="#" class="btn btn-info  col-4" >特徴から探す</a>
-    <a href="#" class="btn btn-info  col-4" >現在地から探す</a>
+    <a href="#" class="btn btn-info  col-4 m-1" >都道府県から探す</a>
+    <a href="#" class="btn btn-info  col-4 m-1" >特徴から探す</a>
+    <a href="#" class="btn btn-info  col-4 m-1" >現在地から探す</a>
   </div>
-  <div class="input-group row justify-content-center">
+  <div class="input-group row justify-content-center m-1">
     <input type="text" class="form-control col-2" placeholder="キーワードを入力" aria-label="キーワードを入力"  >
-    <a class="input-group-append">
+    <a class="input-group-append ">
       <button class="btn btn-info " type="button">検索</button>
     </a>
   </div>
@@ -108,16 +108,20 @@
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
   <div class= "container py-4 ">
+    <div class="container">
+      <h3 class="mb-3"> Sauner Post</h3>
+      <p class="sub-title">サウナ活動をシェアしましょう</p>
+    </div>
     <!-- 繰り返し分 -->
     <% a = [0,1,2,3,4,5,6,7,8]%>
     <% a.each do |i|%>
     <div class="row my-5 justify-content-around ">
       <div class="col-2  ">
-          <%= image_tag( "logo.png",class: "round-image", alt: "icon" , size: "120x120") %>
+          <%= image_tag( "user_default_icon.png",class: "round-image", alt: "icon" , size: "120x120") %>
       </div>
       <div class="col-9 bg-light round-box">
         <p class="border-css h6 p-2">サウナー<%= i %></p>
-        <p class="p-3">サウナ最高
+        <p class="p-3">サウナ最高</p>
       </div>
     </div>
 
@@ -128,6 +132,10 @@
   </div>
   <!-- コンテンツ２ おすすめサウナ施設 -->
   <div class= "container py-4 ">
+    <div class="container">
+      <h3 class="mb-3">Sauna Info</h3>
+      <p class="sub-title">お気に入りのサウナを探しましょう</p>
+    </div>
     <div class="row">
     <!-- ここに繰り返し分をいれる -->
      <% a = [0,1,2,3,4,5,6,7,8]%>
@@ -154,16 +162,73 @@
     <% end %>
     </div>
   </div>
-  <!-- コンテンツ３ サウナニュース-->
-  <div class= "py-4">
-
-  </div>
-
+  <!-- プロフィール -->
+ <div class="py-4">
+   <section id="about">
+     <div class="container">
+       <h3 class="mb-3 ">About</h3>
+       <p class="sub-title">作成者について</p>
+       <div class="row">
+         <!-- 左 -->
+         <div class="col-md-6">
+           <section id="about-me">
+             <h4 class="mb-3">Profile</h4>
+             <!-- 表 -->
+             <table class="table table-hover">
+               <tbody>
+                 <tr>
+                   <th>ユーザー名</th>
+                   <td>RYO</td>
+                 </tr>
+                 <tr>
+                   <th>出身</th>
+                   <td>神奈川県</td>
+                 </tr>
+                 <tr>
+                   <th>現職</th>
+                   <td>不動産営業マン</td>
+                 </tr>
+                 <tr>
+                   <th>特徴</th>
+                   <td>WEBエンジニアを目指して勉強中</td>
+                 </tr>
+               </tbody>
+             </table>
+           </section>
+         </div>
+         <!-- 右 -->
+         <div class="col-md-6">
+           <section id="access">
+             <h4 class="mb-3">Map</h4>
+             <!-- 地図埋め込み -->
+             <div class="embed-responsive embed-responsive-4by3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.555969032294!2d139.62012451525297!3d35.465785780245206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0df6cfd2f1%3A0xbbbca6f36b5235f5!2z5qiq5rWc6aeF!5e0!3m2!1sja!2sjp!4v1547025742043" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>
+           </section>
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
 </main>
 
 <!-- フッター -->
-<footer class= "py-4">
-ここはフッターここはフッターここはフッターここはフッターここはフッターここはフッター
-ここはフッターここはフッターここはフッターここはフッターここはフッター
-ここはフッタここはフッターここはフッターここはフッター
+<footer class="py-4 bg-dark text-light">
+  <div class="container text-center">
+    <ul class="nav justify-content-center mb-3">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Top</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <p><small>Copyright &copy;2018 chanryo.</small></p>
+  </div>
 </footer>
