@@ -6,32 +6,121 @@
 </header>
 
 <!-- ナビBAR -->
-<nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top" >
+<nav class="navbar navbar-dark navbar-expand-md bg-info sticky-top" >
   <!-- サブ -->
   <div class="container" >
     <a class="navbar-brand" href="#">
-    サウナなう
+    <%= image_tag( "logo.png",alt: "Logo" , size: "50x50") %>
     </a>
     <!-- 切り替えボタン -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-    aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーション切替">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- ナビゲーション -->
-    <div class="collapse navbar-collapse" id="navbar-content">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">ＴＯＰ<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" herf="#" id="navbarDropdown" role="button" data-toggle="dropdown">Infomation</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">みんなのサウナなう<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">サウナ一覧</a>
+        <a class="nav-item nav-link active" href="#">サウナ登録</a>
+        <a class="nav-item nav-link disabled" href="#"></a>
+      </div>
     </div>
-  </div>
+    <!-- ドロップダウン -->
+  <ul class="nav  nav-pills">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">みんなのサウナなう</a>
+        <a class="dropdown-item" href="#">お気に入りサウナ</a>
+        <a class="dropdown-item" href="#">アカウント</a>
+        <a class="dropdown-item" href="#">ログアウト</a>
+      </div>
+    </li>
+  </ul>
 
 </nav>
 
+<!-- カルーセル  -->
+  <div class="container">
+
+    <div id="main_visual" class="carousel slide" data-ride="carousel" class="mx-auto">
+      <!-- スライド機能 -->
+      <ol class="carousel-indicators">
+        <li data-target="#main_visual" data-slide-to="0" class="active"></li>
+        <li data-target="#main_visual" data-slide-to="1"></li>
+        <li data-target="#main_visual" data-slide-to="2" ></li>
+      </ol>
+      <div class="carousel-inner">
+        <!-- スライド1 -->
+        <div class="carousel-item active">
+          <%= image_tag( "topimage1.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>サウナにいきたくなる</h2>
+            <p></p>
+          </div>
+        </div>
+        <!-- スライド2 -->
+        <div class="carousel-item">
+        <%= image_tag( "topimage2.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>サウナにいきたい</h2>
+            <p></p>
+          </div>
+        </div>
+        <!-- スライド3 -->
+        <div class="carousel-item">
+          <%= image_tag( "topimage33.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>サウナが呼んでいる</h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <!-- 次へ進むと前に戻るボタン -->
+      <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">前に戻る</span>
+      </a>
+      <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">次に進む</span>
+      </a>
+    </div>
+  </div>
+    <!-- コピペしたとこ -->
+    <div class="uq-topHero_content">
+          <h1 class="uq-topHero_copy">お気に入りのサウナ施設が見つかる日本最大のサウナ検索サイト</h1>
+
+          <form class="js-searchForm" action="https://sauna-ikitai.com/search">
+            <div class="u-displayNone js-hidden"></div>
+            <div class="uq-topSearch">
+              <ul class="uq-topSearch_tabs">
+                <li class="uq-topSearch_tab">
+                  <a class="is-active js-tabTrigger">キーワードから探す</a>
+                </li>
+                <li class="uq-topSearch_tab">
+                  <a class="js-tabTrigger js-modalTrigger" data-modal-type="filterArea">都道府県から探す</a>
+                </li>
+                <li class="uq-topSearch_tab">
+                  <a class="js-tabTrigger js-modalTrigger" data-modal-type="filterConditions">特徴から探す</a>
+                </li>
+              </ul>
+
+              <div class="uq-topSearch_keyword">
+                <div class="c-formText c-formText--sm">
+                  <input class="c-formText" type="text" name="keyword" value="" placeholder="施設名・エリア・キーワード">
+                  <button class="uq-topSearch_button" type="submit">検  索</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="uq-topGps">
+            <a class="js-filterGeoSubmit"><span>現在地から探す</span></a>
+          </div>
+        </div>
+
+
+<!-- コピペおわり -->
 <!-- メイン -->
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
