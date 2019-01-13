@@ -5307,3 +5307,2766 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:01:20 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (14.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 388ms (Views: 381.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:01:29 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 85ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 12:01:31 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:01:35 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 70ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:01:39 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 99ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 12:01:40 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 55ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:01:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 12:03:30 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:03:36 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:03:38 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:03:39 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:04:01 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 55ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:10:20 +0900
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:10:43 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 69ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:17:31 +0900
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 65ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:18:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 59ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:18:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:18:37 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:18:46 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 72ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:18:56 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 59ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:19:29 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 89ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:21:36 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (7.5ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 149ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:21:39 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 118ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:23:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered facilities/index.html.erb within layouts/application (295.9ms)
+Completed 500 Internal Server Error in 308ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x00007f81582adb78>:0x00007f81583ef2c0>):
+    15:     </div>
+    16:     </div>
+    17:     <div class"row">
+    18:       <a href="/facilities/<%=i+1%>" class="card-link btn btn-info ">詳しく見る</a>
+    19:       <a href="#" class="card-link btn btn-danger ">お気に入り</a>
+    20:     </div>
+    21:       </div>
+  
+app/views/facilities/index.html.erb:18:in `_app_views_facilities_index_html_erb___3979729996843134580_70096754015980'
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:23:22 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 66ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:30:01 +0900
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:30:59 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 93ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:34:08 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 1194ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...line-height: 1;": expected "}", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all'  %>
+     9:     <%= javascript_include_tag 'application' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/home.scss:48
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3701344822590710060_70096707524640'
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:34:25 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 1025ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...line-height: 1;": expected "}", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all'  %>
+     9:     <%= javascript_include_tag 'application' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/home.scss:48
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3701344822590710060_70096714084780'
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:35:35 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (21.5ms)
+Completed 500 Internal Server Error in 1084ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...line-height: 1;": expected "}", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all'  %>
+     9:     <%= javascript_include_tag 'application' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/home.scss:48
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3701344822590710060_70096752465420'
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:35:54 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 3445ms (Views: 3442.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:36:00 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.5ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+  Rendered facilities/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 12:39:21 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 3227ms (Views: 3223.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:44:30 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:10: syntax error, unexpected ','
+... image_tag( "logo.png",class: , alt: "photo" , size: "200x20...
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:10: syntax error, unexpected ',', expecting ')'
+...go.png",class: , alt: "photo" , size: "200x200") );@output_b...
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:10: syntax error, unexpected ')', expecting keyword_end
+...t: "photo" , size: "200x200") );@output_buffer.safe_append='...
+...                              ^):
+  
+app/views/facilities/index.html.erb:10: syntax error, unexpected ','
+app/views/facilities/index.html.erb:10: syntax error, unexpected ',', expecting ')'
+app/views/facilities/index.html.erb:10: syntax error, unexpected ')', expecting keyword_end
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 12:44:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 74ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 14:30:31 +0900
+  [1m[35m (12.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (35.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (132.6ms)
+Completed 200 OK in 337ms (Views: 330.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 14:34:58 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 137ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:35:07 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 70ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:35:33 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 81ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:36:15 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 74ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:36:39 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 76ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:39:20 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 138ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:40:05 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 77ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:41:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 66ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:43:51 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:45:36 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:45:53 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 54ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:46:18 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:47:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 73ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:47:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (7.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 110ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:49:00 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 58ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:49:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:13: syntax error, unexpected '='
+...hoto" , size: "200x200", class="img-responsive") );@output_b...
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:13: syntax error, unexpected ')', expecting keyword_end
+...200", class="img-responsive") );@output_buffer.safe_append='...
+...                              ^):
+  
+app/views/facilities/index.html.erb:13: syntax error, unexpected '='
+app/views/facilities/index.html.erb:13: syntax error, unexpected ')', expecting keyword_end
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:49:59 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:50:13 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 73ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:51:15 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:53:04 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 115ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:53:28 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (24.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 90ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:55:13 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 65ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:57:46 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 54ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:57:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:57:57 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:59:11 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 14:59:58 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 77ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:00:25 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 91ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:00:59 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:04:07 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+  Rendered facilities/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:05:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 61ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:05:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 80ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:10:58 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 192ms (Views: 187.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:19:35 +0900
+  [1m[35m (3.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (9.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 152ms (Views: 146.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:20:07 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 110ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:21:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 113ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:22:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 78ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:25:15 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 66ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:25:30 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 76ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:27:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered facilities/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:30:17 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:30:55 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (11.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 152ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:35:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 111ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:37:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:37:43 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 73ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:38:26 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 62ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:39:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 64ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:40:00 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered facilities/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 81ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:40:36 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:41:29 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:44:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 87ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:44:58 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:45:04 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:45:31 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:48:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:48:59 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 15:49:22 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:01:54 +0900
+  [1m[35m (3.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (13.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+  Rendered facilities/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 176ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:02:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (55.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 135ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:02:43 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 76ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:03:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:03:29 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:04:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:16: syntax error, unexpected keyword_class, expecting ')'
+...style: "max-width: 200px;"class: "col-3 float-left") );@outp...
+...                          ^~~~~
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/index.html.erb:16: syntax error, unexpected ')', expecting keyword_end
+...x;"class: "col-3 float-left") );@output_buffer.safe_append='
+...                              ^):
+  
+app/views/facilities/index.html.erb:16: syntax error, unexpected keyword_class, expecting ')'
+app/views/facilities/index.html.erb:16: syntax error, unexpected ')', expecting keyword_end
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:04:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:05:22 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (8.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:17:40 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:17:53 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:18:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 74ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:18:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:18:55 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:19:01 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:19:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 106ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:19:58 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:20:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:21:52 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 83ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 16:22:58 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 18:43:04 +0900
+  [1m[35m (25.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (14.2ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+  Rendered facilities/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 179ms (Views: 172.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 18:43:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.8ms)
+  Rendered facilities/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 112ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:08:57 +0900
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (7.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (486.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (502.8ms)
+Completed 200 OK in 583ms (Views: 580.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:09:53 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 20:10:04 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:10:07 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 55ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 20:10:10 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:10:21 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 72ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:12:06 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:12:26 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:12:31 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:40:21 +0900
+  [1m[35m (5.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (275.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (334.4ms)
+Completed 200 OK in 574ms (Views: 572.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:40:41 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 4672ms (Views: 4670.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:42:27 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 3776ms (Views: 3770.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:42:53 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (33.0ms)
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:42:57 +0900
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 4096ms (Views: 4093.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 124ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:44:07 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 3755ms (Views: 3752.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:44:37 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 3688ms (Views: 3683.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:48:45 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 20:51:22 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 132ms (Views: 129.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 20:52:32 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 21:05:30 +0900
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 139ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 21:26:56 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 2763ms (Views: 2759.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 21:27:12 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 21:29:19 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 59ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/i" for 127.0.0.1 at 2019-01-13 21:29:21 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"i"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 63ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 21:29:46 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:29:47 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 93ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:29:52 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:30:23 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:30:26 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:30:28 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:30:55 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:30:58 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:01 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:32:02 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/facilities/" for 127.0.0.1 at 2019-01-13 21:32:12 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"facilities"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:15 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:18 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:31 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 71ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:32 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:34 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:32:57 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:33:00 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 60ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:33:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 62ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:33:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/[0,%201,%202,%203,%204,%205,%206,%207,%208]" for 127.0.0.1 at 2019-01-13 21:33:28 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"[0, 1, 2, 3, 4, 5, 6, 7, 8]"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/[0,%201,%202,%203,%204,%205,%206,%207,%208]" for 127.0.0.1 at 2019-01-13 21:33:40 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"[0, 1, 2, 3, 4, 5, 6, 7, 8]"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/[0,%201,%202,%203,%204,%205,%206,%207,%208]" for 127.0.0.1 at 2019-01-13 21:33:43 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"[0, 1, 2, 3, 4, 5, 6, 7, 8]"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:33:46 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/0" for 127.0.0.1 at 2019-01-13 21:33:47 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:34:00 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-13 21:34:01 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/" for 127.0.0.1 at 2019-01-13 21:34:28 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:21:17 +0900
+  [1m[35m (2.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 98ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 22:21:24 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered facilities/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 22:22:47 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.1ms)
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:22:50 +0900
+Completed 200 OK in 2988ms (Views: 2981.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (2.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 106ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 22:23:19 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-13 22:23:21 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 22:23:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 22:23:26 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:50:13 +0900
+  [1m[35m (2.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (8.9ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 3458ms (Views: 3451.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:50:25 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 2894ms (Views: 2890.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:52:31 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 3069ms (Views: 3066.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:52:56 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 2937ms (Views: 2934.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:55:30 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 3076ms (Views: 3072.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 22:58:52 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.6ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (33.6ms)
+Completed 500 Internal Server Error in 1386ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ar{--base_color": expected "{", was "};"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all'  %>
+     9:     <%= javascript_include_tag 'application' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/home.scss:21
+app/assets/stylesheets/application.scss:2
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2527194510659414892_70148194610400'
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:00:21 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 3092ms (Views: 3089.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:01:01 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 126ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:01:17 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (4.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:01:29 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:02:54 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 3220ms (Views: 3218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:03:10 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:06:35 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:09:17 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 3349ms (Views: 3345.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:10:11 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 2670ms (Views: 2667.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:10:56 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:12:15 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:13:05 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:13:14 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 71ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:13:32 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 129ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:13:41 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:14:24 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:15:27 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:18:21 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 119ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:18:41 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:19:07 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:20:05 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 3043ms (Views: 3040.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:21:49 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:22:52 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:23:19 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-13 23:23:28 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:39:18 +0900
+  [1m[35m (4.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (14.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (58.3ms)
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:39:22 +0900
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (55.6ms)
+Completed 200 OK in 4047ms (Views: 4034.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 136ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:40:27 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:40:30 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:40:42 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:43:14 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:43:32 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 120ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:00 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 71ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:14 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:27 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:39 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 68ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:48 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:44:59 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 73ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:46:42 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 122ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:47:20 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:47:33 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:48:17 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:48:19 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:48:41 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:50:50 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "no-image.png" is not present in the asset pipeline.):
+    49: <!-- 検索 -->
+    50: <div class="container-fluid accent-color py-4 my-2" style="text-align:center">
+    51:     <p>     </p>
+    52:     <%= image_tag( "no-image.png",class: "img-thumbnail rouded mx-auto  d-block base-color", alt: "Logo" , size: "200x200") %>
+    53:     <p>     </p>
+    54:     <p class="font-weight-bold h5">サウナを探す</p>
+    55:   <div class="btn-group row justify-content-center" role="group" aria-label="検索ボタン">
+  
+app/views/home/index.html.erb:52:in `_app_views_home_index_html_erb___1441174525022270628_70148152120080'
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:51:14 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (183.5ms)
+Completed 200 OK in 243ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:51:56 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:52:13 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:56:13 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 272ms (Views: 268.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:57:10 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:57:11 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 74ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:57:59 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 76ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:58:37 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:00 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:28 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:36 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:40 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:42 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-13 23:59:58 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:00:37 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:01:02 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 72ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:01:23 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:01:56 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:02:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:02:54 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-14 00:02:57 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-14 00:03:13 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 59ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:03:21 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:03:26 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-14 00:03:27 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:03:28 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:04:58 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 64ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:05:44 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:06:48 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 62ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:02 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:16 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:18 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 66ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:30 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:32 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:07:46 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:08:18 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:09:56 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 3478ms (Views: 3475.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:10:33 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 138ms (Views: 135.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:10:43 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 113ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:10:53 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 105ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:11:09 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:11:42 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 87ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:12:28 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:12:59 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-14 00:13:16 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-14 00:13:37 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 65ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:13:41 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:13:47 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:13:50 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:14:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 58ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-14 00:14:11 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:14:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:14:26 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:15:11 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 66ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:15:30 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:16:57 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:17:17 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:17:41 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:17:57 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:19:40 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:20:33 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:20:45 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-14 00:21:00 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 77ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-14 00:21:16 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+

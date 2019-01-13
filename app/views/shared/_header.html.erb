@@ -1,12 +1,12 @@
 <!--ヘッダー -->
-<header class= "py-4 bg-dark text-light">
+<header class= "py-4 base-color text-danger">
   <div class ="container text-center">
-    <h1><a href="/">  <%= image_tag( "title_logo_2.png",alt: "Title_Logo" ) %></a></h1>
+    <h1 >SAUNA NOW<h1/>
   </div>
 </header>
 
 <!-- ナビBAR -->
-<nav class="navbar navbar-dark navbar-expand-md bg-info sticky-top" >
+<nav class="navbar  navbar-expand-md base-color sticky-top text-danger" >
   <!-- サブ -->
   <div class="container" >
     <a class="navbar-brand" href="/">
@@ -18,21 +18,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">みんなのつぶやき<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active " href="#">みんなのつぶやき<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link active" href="/facilities">サウナ一覧</a>
         <a class="nav-item nav-link active" href="/facilities/new">サウナ登録</a>
         <a class="nav-item nav-link disabled" href="#"></a>
       </div>
     </div>
     <!-- ドロップダウン -->
-  <ul class="nav  nav-pills bg-dark">
+  <ul class="nav  nav-pills">
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">みんなのサウナなう</a>
-        <a class="dropdown-item" href="#">お気に入りサウナ</a>
-        <a class="dropdown-item" href="#">アカウント</a>
-        <a class="dropdown-item" href="#">ログアウト</a>
+      <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
+      <div class="dropdown-menu base-color ">
+        <a class="dropdown-item accent-text" href="#">みんなのサウナなう</a>
+        <a class="dropdown-item accent-text" href="#">お気に入りサウナ</a>
+        <a class="dropdown-item accent-text" href="#">アカウント</a>
+        <a class="dropdown-item accent-text" href="#">ログアウト</a>
       </div>
     </li>
   </ul>
