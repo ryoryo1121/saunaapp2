@@ -1,0 +1,36 @@
+<%= render partial: 'shared/header' %>
+
+<main>
+  <!-- コンテンツ１ みんなのサウナ活動-->
+  <div class ="container">
+
+  <!-- ここに繰り返し分をいれる -->
+   <% a = [0,1,2,3,4,5,6,7,8]%>
+   <% a.each do |i|%>
+
+    <div class="row mb-4 ">
+      <div class="card mb-3 shadow-box" >
+        <%= image_tag( "logo.png",class: "card-img-top", alt: "photo" , size: "200x200") %>
+        <div class="card-dody">
+          <h4 class="card-title">サウナ<%= i+1%>番</h4>
+          <p class="card-text">地域で<%= i+1 %>番のサウナです。</p>
+        </div>
+        <!-- 設備リスト -->
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" >サウナの温度</li>
+          <li class="list-group-item" >水風呂の温度</li>
+          <li class="list-group-item" >サウナテレビ</li>
+        </ul>
+        <div class="card-dody">
+          <a href="/facilities/<%=i+1%>" class="card-link btn btn-info ">詳しく見る</a>
+          <a href="#" class="card-link btn btn-danger ">お気に入り</a>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  </div>
+
+
+</main>
+
+<%= render partial: "shared/footer" %>

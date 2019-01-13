@@ -1,43 +1,4 @@
-<!--ヘッダー -->
-<header class= "py-4 bg-dark text-light">
-  <div class ="container text-center">
-    <h1><a href="#">  <%= image_tag( "title_logo_2.png",alt: "Title_Logo" ) %></a></h1>
-  </div>
-</header>
-
-<!-- ナビBAR -->
-<nav class="navbar navbar-dark navbar-expand-md bg-info sticky-top" >
-  <!-- サブ -->
-  <div class="container" >
-    <a class="navbar-brand" href="#">
-    <%= image_tag( "logo.png",alt: "Logo" , size: "50x50") %>
-    </a>
-    <!-- 切り替えボタン -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーション切替">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">みんなのサウナなう<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">サウナ一覧</a>
-        <a class="nav-item nav-link active" href="#">サウナ登録</a>
-        <a class="nav-item nav-link disabled" href="#"></a>
-      </div>
-    </div>
-    <!-- ドロップダウン -->
-  <ul class="nav  nav-pills bg-dark">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ユーザーMENU</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">みんなのサウナなう</a>
-        <a class="dropdown-item" href="#">お気に入りサウナ</a>
-        <a class="dropdown-item" href="#">アカウント</a>
-        <a class="dropdown-item" href="#">ログアウト</a>
-      </div>
-    </li>
-  </ul>
-
-</nav>
+<%= render "/shared/header" %>
 
 <!-- カルーセル  -->
 <div class="container">
@@ -201,9 +162,7 @@
            <section id="access">
              <h4 class="mb-3">Map</h4>
              <!-- 地図埋め込み -->
-             <div class="embed-responsive embed-responsive-4by3">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.555969032294!2d139.62012451525297!3d35.465785780245206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0df6cfd2f1%3A0xbbbca6f36b5235f5!2z5qiq5rWc6aeF!5e0!3m2!1sja!2sjp!4v1547025742043" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-             </div>
+             <p>準備中</p>
            </section>
          </div>
        </div>
@@ -213,22 +172,4 @@
 </main>
 
 <!-- フッター -->
-<footer class="py-4 bg-dark text-light">
-  <div class="container text-center">
-    <ul class="nav justify-content-center mb-3">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Top</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">User</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-    </ul>
-    <p><small>Copyright &copy;2018 chanryo.</small></p>
-  </div>
-</footer>
+  <%= render "shared/footer" %>
