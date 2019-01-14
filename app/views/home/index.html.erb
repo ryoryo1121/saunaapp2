@@ -1,53 +1,15 @@
 <%= render "/shared/header" %>
 
-<!-- カルーセル  -->
-<div class="container">
-  <div id="main_visual" class="carousel slide" data-ride="carousel" class="mx-auto">
-    <!-- スライド機能 -->
-    <ol class="carousel-indicators">
-      <li data-target="#main_visual" data-slide-to="0" class="active"></li>
-      <li data-target="#main_visual" data-slide-to="1"></li>
-      <li data-target="#main_visual" data-slide-to="2" ></li>
-    </ol>
-    <div class="carousel-inner">
-      <!-- スライド1 -->
-      <div class="carousel-item active">
-        <%= image_tag( "topimage1.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-        <div class="carousel-caption d-none d-md-block">
-          <h2>サウナにいきたくなる</h2>
-          <p></p>
-        </div>
-      </div>
-      <!-- スライド2 -->
-      <div class="carousel-item">
-        <%= image_tag( "topimage2.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-        <div class="carousel-caption d-none d-md-block">
-          <h2>サウナにいきたい</h2>
-          <p></p>
-        </div>
-      </div>
-      <!-- スライド3 -->
-      <div class="carousel-item">
-        <%= image_tag( "topimage33.jpg", class: "img-fluid" ,alt: "image3" , size: "1200x800") %>
-        <div class="carousel-caption d-none d-md-block">
-          <h2>サウナが呼んでいる</h2>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <!-- 次へ進むと前に戻るボタン -->
-    <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">前に戻る</span>
-    </a>
-    <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">次に進む</span>
-    </a>
+<!-- ジャンボトロン  -->
+<div class="jumbotron jumbotron-fuluid base-color mb-0">
+  <div class="container">
+    <h1 class="display-3 accent-text">Sauna Now</h1>
+    <p class="lead accent-text">サウナ好きのための情報共有メディアです</p>
   </div>
 </div>
+
 <!-- 検索 -->
-<div class="container-fluid accent-color py-4 my-2" style="text-align:center">
+<div class="container-fluid accent-color py-4 mb-2" style="text-align:center">
     <p>     </p>
     <%= image_tag( "logo.png",class: "img-thumbnail rouded mx-auto  d-block base-color", alt: "Logo" , size: "200x200") %>
     <p>     </p>
@@ -65,6 +27,9 @@
   </div>
 </div>
 <!-- 検索終わり -->
+
+
+
 <!-- メイン -->
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
@@ -73,55 +38,65 @@
       <h3 class="mb-3"> Sauner Post</h3>
       <p class="sub-title">サウナ活動をシェアしましょう</p>
     </div>
+    </div>
     <!-- 繰り返し分 -->
+
     <% a = [0,1,2,3,4,5,6,7,8]%>
     <% a.each do |i|%>
-    <div class="row my-5 justify-content-around ">
-      <div class="col-2  ">
-          <%= image_tag( "no_image.png",class: "round-image", alt: "icon" , size: "120x120") %>
-      </div>
-      <div class="col-9 bg-light ">
-        <p class=" h6 p">サウナー<%= i %></p>
-        <p class="p">サウナ最高</p>
-      </div>
+    <div class="container bg-light">
+    <div class="media mb-2">
+      <a  class="mr-3 "href="/"><%= image_tag( "no_image.png",alt: "user",size: "100x100" ,class: "rounded-circle") %></a>
+    <!-- 画像 -->
+      <div class="media-body">
+
+      <h5>サウナユーザー</h5>
+      <span class="small ">今日行ったサウナはよかった</span>
+      <p class="text-right mr-5"><i class="fa fa-heart fa-x2"></i></p>
+    </div>
     </div>
 
+
+
+    </div>
     <% end %>
+
     <!-- 繰り返し終わり -->
 
 
-  </div>
+
   <!-- コンテンツ２ おすすめサウナ施設 -->
   <div class= "container py-4 ">
     <div class="container">
       <h3 class="mb-3">Sauna Info</h3>
       <p class="sub-title">お気に入りのサウナを探しましょう</p>
     </div>
-    <div class="row">
-    <!-- ここに繰り返し分をいれる -->
-     <% a = [0,1,2,3,4,5,6,7,8]%>
-     <% a.each do |i|%>
-      <div class="col mb-4 ">
-        <div class="card mb-3 shadow-box" style="max-width: 20rem; min-width: 20rem;">
-          <%= image_tag( "no_image.png",class: "card-img-top", alt: "photo" , size: "200x200") %>
-          <div class="card-dody">
-            <h4 class="card-title">サウナ<%= i+1 %>番</h4>
-            <p class="card-text">地域で<%= i+1 %>番のサウナです。</p>
-          </div>
-          <!-- 設備リスト -->
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item" >サウナの温度</li>
-            <li class="list-group-item" >水風呂の温度</li>
-            <li class="list-group-item" >サウナテレビ</li>
-          </ul>
-          <div class="card-dody">
-            <a href="#" class="card-link btn btn-light accent-text  ">詳しく見る</a>
-            <a href="#" class="card-link btn btn-light accent-text ">あとで見る</a>
-          </div>
-        </div>
-      </div>
-    <% end %>
-    </div>
+    <% a = [0,1,2,3,4,5,6,7,8]%>
+    <% a.each do |i|%>
+   <!-- 新しいビューのサンプル -->
+ <div class ="container " >
+   <!-- row1 -->
+   <div class =" row m-3 ">
+     <!-- 画像col -->
+     <div class="col-md-3 m-2 p-1">
+       <%= image_tag( "no_image.png", alt: "photo" , style: "max-width: 200px;") %>
+     </div>
+     <!-- 題名col -->
+     <div class="col-md-8 m-3 p-1">
+         <p class="facility_name"> 施設サンプル</p>
+         <p class="facility_address">神奈川県横浜市〇〇区〇〇まるまる</p>
+               <h4 class="mb-3">詳細</h4>
+               <div>
+                 <a href="/facilities/<%=i+1%>" class="card-link btn btn-light accent-text ">詳しく見る</a>
+                 <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
+                 <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
+               </div>
+     </div>
+     <!-- col終わり     -->
+     </div>
+
+   </div>
+   <!-- 新しいビューのサンプル -->
+   <% end %>
   </div>
   <!-- プロフィール -->
  <div class="py-4">
@@ -172,4 +147,6 @@
 </main>
 
 <!-- フッター -->
+
+
   <%= render "shared/footer" %>

@@ -32,13 +32,24 @@ a {
   color: #f12639;
 }
 
-
-.round-image{
-width:100px;
-height:100px;
-border-radius:50%;
-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
+// SNSアイコンCSS
+#sns-icon a {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
 }
+#sns-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border-radius: 50%;
+  background: #f12639;
+  line-height: 50px;
+  text-align: center;
+}
+
 
 .round-box{
 border-radius:5%;
