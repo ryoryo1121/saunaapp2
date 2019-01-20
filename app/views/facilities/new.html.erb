@@ -1,0 +1,77 @@
+<%= render partial: 'shared/header' %>
+<!--メイン -->
+<main>
+  <div class="container">
+    <h1>施設登録</h1>
+    <p>お気に入りの施設を登録しよう</p>
+  </div>
+  <!-- 施設登録フォーム -->
+  <div class="py-3">
+    <div class="container">
+      <h3 class="mb-3"></h3>
+      <!-- フォーム -->
+      <form>
+        <!-- 施設名 -->
+        <div class="form-group row">
+          <label for="name" class="col-md-3 col-form-label">
+            施設名 <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="name" required>
+          </div>
+        </div>
+        <!-- 所在地 -->
+        <div class="form-group row">
+          <label for="email" class="col-md-3 col-form-label">
+             所在地 <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+        <!-- おすすめ設備 -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-md-3">
+              おすすめの設備
+            </legend>
+            <div class="col-md-9">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio1" value="answer1">
+                <label class="form-check-label" for="radio1">サウナ</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio2" value="answer2">
+                <label class="form-check-label" for="radio2">水風呂</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <!-- 種類 -->
+
+        <!-- コメント -->
+        <div class="form-group row">
+          <label for="message" class="col-md-3 col-form-label">
+           おすすめコメント <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <textarea class="form-control" id="message" rows="8" name="message"></textarea>
+          </div>
+        </div>
+        <!-- 確認ボタン -->
+        <div class="form-group row justify-content-end">
+          <div class="col-md-9">
+            <button type="submit" class="btn btn-light accent-text">登録</button>
+          </div>
+        </div>
+      </form>
+      <!-- /フォーム -->
+    </div>
+  </div>
+  <!-- / お問合せフォーム -->
+</main>
+
+
+<!-- メイン終わり-->
+
+<%= render partial: "shared/footer" %>

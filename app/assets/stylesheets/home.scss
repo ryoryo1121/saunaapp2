@@ -2,21 +2,54 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
 body{
-  background-color: lightgray;
+  background-color: white;
 }
 
 *{
-    font-family: "Hiragino Sans W9";
+    font-family: "Hiragino Kaku Gothic Std" ;
     src: local(HiraginoSans-W9);
 }
 
-.round-image{
-width:100px;
-height:100px;
-border-radius:50%;
-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
+a {
+  color: inherit;
 }
+
+
+
+
+.base-color{
+  background-color: #1f2749;
+}
+
+.accent-color{
+  background-color: #f12639;
+}
+
+.accent-text{
+  color: #f12639;
+}
+
+// SNSアイコンCSS
+#sns-icon a {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
+}
+#sns-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border-radius: 50%;
+  background: #f12639;
+  line-height: 50px;
+  text-align: center;
+}
+
 
 .round-box{
 border-radius:5%;
@@ -33,3 +66,28 @@ box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 10);
    border-bottom: 5px solid #dee2e6;
    padding: 0.75rem;
  }
+
+ .facility_name {
+    display: block;
+    font-size: 20px;
+    width: 640px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+ .facility_address {
+    font-style: normal;
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+    width: 640px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1;
+  }
