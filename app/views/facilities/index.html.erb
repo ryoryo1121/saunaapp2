@@ -3,8 +3,7 @@
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
   <!-- ここに繰り返し分をいれる -->
-   <% a = [0,1,2,3,4,5,6,7,8]%>
-   <% a.each do |i|%>
+   <% @facilities.each do |facility|%>
   <!-- 新しいビューのサンプル -->
 <div class ="container" >
   <!-- row1 -->
@@ -15,11 +14,11 @@
     </div>
     <!-- 題名col -->
     <div class="col-md-8 m-3 p-1">
-        <p class="facility_name"> 施設サンプル</p>
-        <p class="facility_address">神奈川県横浜市〇〇区〇〇まるまる</p>
-              <h4 class="mb-3">詳細</h4>
+        <p class="facility_name"><%=facility.name %></p>
+        <p class="facility_address"><%=facility.address %></p>
+              <h6 class="mb-3"><%=facility.description %></h6>
               <div>
-                <a href="/facilities/<%=i+1%>" class="card-link btn btn-light accent-text ">詳しく見る</a>
+                <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
                 <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
               </div>
     </div>

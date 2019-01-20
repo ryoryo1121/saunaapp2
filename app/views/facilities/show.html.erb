@@ -1,50 +1,37 @@
 <%= render partial: 'shared/header' %>
 <main>
 <div class="py-4">
-  <section id="about">
     <div class="container">
-      <h3 class="mb-3 ">About</h3>
-      <p class="sub-title">施設ナンバー<%= @facility_name %></p>
+      <h3><%= @facility.name%></h3><%= @facility.id%>
+      <p class="sub-title small"><%= @facility.address %></p>
       <div class="row">
         <!-- 左 -->
         <div class="col-md-6">
-          <section id="about-me">
-            <h4 class="mb-3">Profile</h4>
+            <h5 class="mb-3">おすすめコメント</h5>
             <!-- 表 -->
             <table class="table table-hover">
               <tbody>
                 <tr>
-                  <th>施設名</th>
-                  <td>施設</td>
-                </tr>
-                <tr>
-                  <th>所在地</th>
-                  <td>住所</td>
-                </tr>
-                <tr>
-                  <th>おすすめコメント</th>
-                  <td>コメント</td>
+                  <th>コメント</th>
+                  <td><%= @facility.description %></td>
                 </tr>
                 <tr>
                   <th>おすすめ設備</th>
-                  <td>設備</td>
+                  <td>まだ実装してないよ</td>
                 </tr>
               </tbody>
             </table>
-          </section>
         </div>
         <!-- 右 -->
         <div class="col-md-6">
           <section id="access">
-            <h4 class="mb-3">Map</h4>
+            <h5 class="mb-3">Map</h5>
             <!-- 地図埋め込み -->
             <p>地図入れたい</p>
           </section>
         </div>
       </div>
-
     </div>
-  </section>
 </div>
 </main>
 

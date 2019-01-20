@@ -4,20 +4,27 @@
   <div class="container">
     <h1>施設登録</h1>
     <p>お気に入りの施設を登録しよう</p>
+    <!-- エラーメッセージ -->
+    <% if @facility.errors.present? %>
+    <% @facility.errors.full_messages.each do |message| %>
+    <p class="accent-text alert alert-danger small"><%= message %></p>
+    <% end %>
+    <% end %>
+    <!-- エラーメッセージ -->
   </div>
   <!-- 施設登録フォーム -->
   <div class="py-3">
     <div class="container">
       <h3 class="mb-3"></h3>
       <!-- フォーム -->
-      <form>
+      <%= form_for @facility do |form| %>
         <!-- 施設名 -->
         <div class="form-group row">
           <label for="name" class="col-md-3 col-form-label">
             施設名 <span class="badge badge-warning">必須</span>
           </label>
           <div class="col-md-9">
-            <input type="text" class="form-control" id="name" required>
+            <%= form.text_field :name ,class: "form-control" %>
           </div>
         </div>
         <!-- 所在地 -->
@@ -26,7 +33,7 @@
              所在地 <span class="badge badge-warning">必須</span>
           </label>
           <div class="col-md-9">
-            <input type="email" class="form-control" id="email" required>
+            <%= form.text_field :address ,class: "form-control" %>
           </div>
         </div>
         <!-- おすすめ設備 -->
@@ -55,16 +62,17 @@
            おすすめコメント <span class="badge badge-warning">必須</span>
           </label>
           <div class="col-md-9">
-            <textarea class="form-control" id="message" rows="8" name="message"></textarea>
+            <%= form.text_area :description ,class: "form-control",rows: 6 %>
           </div>
         </div>
         <!-- 確認ボタン -->
         <div class="form-group row justify-content-end">
           <div class="col-md-9">
-            <button type="submit" class="btn btn-light accent-text">登録</button>
+          <%= form.submit "登録",class: "btn btn-light accent-text"%>
+
           </div>
         </div>
-      </form>
+      <% end %>
       <!-- /フォーム -->
     </div>
   </div>
