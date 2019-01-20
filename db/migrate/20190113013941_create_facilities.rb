@@ -11,7 +11,7 @@ class CreateFacilities < ActiveRecord::Migration[5.2]
       t.boolean :sauna_tv
 
       has_one_attached :image
-      # アクティブストレージを利用する予定
+      # 画像ようカラムはあとで追加
 
 
       t.timestamps
