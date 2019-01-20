@@ -13,6 +13,12 @@
 ActiveRecord::Schema.define(version: 2019_01_20_021855) do
 
   create_table "facilities", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "description"
+    t.string "address"
+    t.integer "sauna_temp"
+    t.integer "mizuburo_temp"
+    t.boolean "sauna_tv"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
