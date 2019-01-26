@@ -21,12 +21,19 @@ class FacilitiesController < ApplicationController
   end
 
   def edit
+    @facility = Facility.find(params[:id])
   end
 
   def update
+    facility = Facility.find(params[:id])
+    facility.update!(facility_params)
+    redirect_to facilities_url, notice: "施設を更新しました。"
   end
 
   def destroy
+    facility = Facility.find(params[:id])
+    facility.destroy
+    redirect_to facilities_url, notice: "施設#{facility.name}を削除しました。"
   end
 
   private

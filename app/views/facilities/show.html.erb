@@ -29,6 +29,17 @@
             <!-- 地図埋め込み -->
             <p>地図入れたい</p>
           </section>
+          <div>
+            <a><%= link_to "編集する", edit_facility_url,class: "btn btn-light accent-text" %></a>
+            <a><%= link_to "削除する", @facility,method: :delete,
+              data: {
+                confirm: "施設#{@facility.name}を削除します。よろしいですか?",
+                cancel: 'キャンセル',
+                commit: '削除する'
+                }, title: 'Confirm',
+              class: "btn btn-light accent-text" %></a>
+            <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
+          </div>
         </div>
       </div>
     </div>

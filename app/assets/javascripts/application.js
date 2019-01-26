@@ -15,6 +15,7 @@
 //= require jquery
 //= require bootstrap-sprockets
 
+// = require data-confirm-modal
 
 //= require activestorage
 

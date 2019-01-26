@@ -14556,3 +14556,1624 @@ Processing by FacilitiesController#show as HTML
 Completed 200 OK in 74ms (Views: 69.8ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-21 00:04:35 +0900
+  [1m[35m (3.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 116ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-21 00:04:51 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 93ms (Views: 86.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/facilities/2" for 127.0.0.1 at 2019-01-21 00:05:07 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-21 00:07:39 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.0ms)
+  [1m[36mFacility Load (1.0ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 131ms (Views: 123.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-21 00:07:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-21 00:07:50 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:15:25 +0900
+  [1m[35m (43.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (5.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 168ms (Views: 165.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:15:30 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.2ms)
+  [1m[36mFacility Load (35.2ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (138.3ms)
+Completed 200 OK in 218ms (Views: 102.7ms | ActiveRecord: 104.1ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:15:32 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered facilities/show.html.erb within layouts/application (351.7ms)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `facility' for #<#<Class:0x00007fae2e7bf7a8>:0x00007fae2e506890>
+Did you mean?  @facility):
+    30:             <p>地図入れたい</p>
+    31:           </section>
+    32:           <div>
+    33:             <a><%= link_to "編集する", facility,class: "btn btn-light accent-text" %></a>
+    34:             <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
+    35:           </div>
+    36:         </div>
+  
+app/views/facilities/show.html.erb:33:in `_app_views_facilities_show_html_erb___906675454098383253_70193039030480'
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:15:58 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 108ms (Views: 101.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:16:01 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (1.0ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:16:04 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.7ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 111ms (Views: 106.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:18:04 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered facilities/show.html.erb within layouts/application (359.3ms)
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_facility' for #<#<Class:0x00007fae2e7bf7a8>:0x00007fae2e3fe330>
+Did you mean?  edit_facility_url):
+    30:             <p>地図入れたい</p>
+    31:           </section>
+    32:           <div>
+    33:             <a><%= link_to "編集する", edit_facility,class: "btn btn-light accent-text" %></a>
+    34:             <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
+    35:           </div>
+    36:         </div>
+  
+app/views/facilities/show.html.erb:33:in `_app_views_facilities_show_html_erb___906675454098383253_70193038319640'
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:18:16 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (1.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.4ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:33: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+... "編集する", edit_@facility,class: "btn btn-light accent...
+...                      ^~~~~~~~~):
+  
+app/views/facilities/show.html.erb:33: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:18:28 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (1.2ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 88ms (Views: 83.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities/1/edit" for 127.0.0.1 at 2019-01-26 12:18:29 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/edit.html.erb within layouts/application (36.8ms)
+Completed 200 OK in 129ms (Views: 124.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-26 12:18:53 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 79ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:18:54 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:18:56 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 93ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/1/edit" for 127.0.0.1 at 2019-01-26 12:18:57 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 72ms (Views: 68.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/1/edit" for 127.0.0.1 at 2019-01-26 12:22:30 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/edit.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 111ms (Views: 72.0ms | ActiveRecord: 24.2ms)
+
+
+Started PATCH "/facilities/1" for 127.0.0.1 at 2019-01-26 12:22:34 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bGioNWtctKnFZG5y1Zlr/HQssFq+piALB8uGQA5t9GGLDNGKbYGgF/TKwBvJ01wJy9qhAQX4B03P92exR5kJQ==", "facility"=>{"name"=>"サウナ７８", "address"=>"鹿児島県", "description"=>"なし"}, "commit"=>"編集", "id"=>"1"}
+  [1m[36mFacility Load (1.7ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (14.8ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'サウナ７８', `updated_at` = '2019-01-26 03:22:34' WHERE `facilities`.`id` = 1[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (60.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 88ms (ActiveRecord: 77.6ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:22:34 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 113ms (Views: 111.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/2" for 127.0.0.1 at 2019-01-26 12:22:39 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 87ms (Views: 84.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/2/edit" for 127.0.0.1 at 2019-01-26 12:22:40 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (0.8ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 76ms (Views: 72.2ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/facilities/2" for 127.0.0.1 at 2019-01-26 12:22:55 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhINmIAJRyjE8KQovylQX5iCZo9d7fobGdN94oT+80sdj5x+fBIzejw2HpEbWHiATn2+yjMAgoYC845lQdkgvw==", "facility"=>{"name"=>"サウナKK", "address"=>"石川県KK", "description"=>"KKサウナです"}, "commit"=>"編集", "id"=>"2"}
+  [1m[36mFacility Load (0.9ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (3.1ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'サウナKK', `description` = 'KKサウナです', `address` = '石川県KK', `updated_at` = '2019-01-26 03:22:55' WHERE `facilities`.`id` = 2[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (40.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 51ms (ActiveRecord: 44.7ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:22:55 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6.2ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 12:22:58 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 83ms (Views: 79.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/3/edit" for 127.0.0.1 at 2019-01-26 12:22:59 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/edit.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 82ms (Views: 78.6ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/facilities/3" for 127.0.0.1 at 2019-01-26 12:23:12 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X18vQ4NrBSU3PSoKFH47MFrjLfR9U8/Eu1iE0CJjjy0Ewr6lf3Bxd8/7kLOwDxPvjBz1sRO+t1mgeHdX50Rc2Q==", "facility"=>{"name"=>"さうなさうな", "address"=>"千葉県", "description"=>"さうなさうなです。"}, "commit"=>"編集", "id"=>"3"}
+  [1m[36mFacility Load (3.9ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (2.0ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'さうなさうな', `description` = 'さうなさうなです。', `address` = '千葉県', `updated_at` = '2019-01-26 03:23:12' WHERE `facilities`.`id` = 3[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (57.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 70ms (ActiveRecord: 64.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:23:12 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  [1m[36mFacility Load (0.8ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 83ms (Views: 77.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/4" for 127.0.0.1 at 2019-01-26 12:23:16 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 78ms (Views: 74.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/4/edit" for 127.0.0.1 at 2019-01-26 12:23:18 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFacility Load (0.7ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 85ms (Views: 81.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/facilities/4" for 127.0.0.1 at 2019-01-26 12:23:40 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aQQMZ632cSSojl/E2EoHm4I29wya519MSil7UmjNSWMymZ2BUe0FdlBI5X18Oy9EVMkvSfQKJ9FRCYjVreqalw==", "facility"=>{"name"=>"スパGOOD", "address"=>"北海道", "description"=>"GOODなスパです"}, "commit"=>"編集", "id"=>"4"}
+  [1m[36mFacility Load (3.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (0.4ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'スパGOOD', `description` = 'GOODなスパです', `address` = '北海道', `updated_at` = '2019-01-26 03:23:40' WHERE `facilities`.`id` = 4[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (78.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 88ms (ActiveRecord: 82.2ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:23:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 84ms (Views: 81.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/5" for 127.0.0.1 at 2019-01-26 12:23:50 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFacility Load (1.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 78ms (Views: 73.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/facilities/5/edit" for 127.0.0.1 at 2019-01-26 12:23:52 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/facilities/5" for 127.0.0.1 at 2019-01-26 12:24:10 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YVJ+3vNrdZ4Hw0N+YzbL6gFfeY9SGFBek0gSKIb4OwE6z+84D3ABzP8F+cfHR+M116Chyjz1KMOIaOGvQ9/o9Q==", "facility"=>{"name"=>"ハイパーサウナ", "address"=>"愛知県", "description"=>"ハイパーです"}, "commit"=>"編集", "id"=>"5"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (3.5ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'ハイパーサウナ', `description` = 'ハイパーです', `address` = '愛知県', `updated_at` = '2019-01-26 03:24:11' WHERE `facilities`.`id` = 5[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 9ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:24:11 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered facilities/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 84ms (Views: 81.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/6" for 127.0.0.1 at 2019-01-26 12:24:14 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/6/edit" for 127.0.0.1 at 2019-01-26 12:24:17 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/facilities/6" for 127.0.0.1 at 2019-01-26 12:24:34 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YzSyw2lI60gHBC4FnAYdMsiop5nkf80aadPSSMXMC4Q4qSMllVOfGv/ClLw4dzXtHld/3IqStYdy8yHPAOvYcA==", "facility"=>{"name"=>"ウルトラ銭湯", "address"=>"東京都", "description"=>"ウルトラな銭湯"}, "commit"=>"編集", "id"=>"6"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (0.8ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'ウルトラ銭湯', `description` = 'ウルトラな銭湯', `address` = '東京都', `updated_at` = '2019-01-26 03:24:34' WHERE `facilities`.`id` = 6[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (35.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 44ms (ActiveRecord: 38.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:24:34 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 96ms (Views: 93.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/7" for 127.0.0.1 at 2019-01-26 12:24:42 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 65ms (Views: 61.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/7/edit" for 127.0.0.1 at 2019-01-26 12:24:44 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 86ms (Views: 82.6ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/facilities/7" for 127.0.0.1 at 2019-01-26 12:25:02 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FamwyrjPkiZmDFxwGfPGNk5uzfppKN9W9MsVpVa5ZvBONCEsRNTmdJ7K5sm9gu7pmJEVvwfFp8vv6+Yik561BA==", "facility"=>{"name"=>"SPECIALスパ", "address"=>"秋田県", "description"=>"スペシャルなスパ"}, "commit"=>"編集", "id"=>"7"}
+  [1m[36mFacility Load (0.9ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (1.7ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'SPECIALスパ', `description` = 'スペシャルなスパ', `address` = '秋田県', `updated_at` = '2019-01-26 03:25:02' WHERE `facilities`.`id` = 7[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (132.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 141ms (ActiveRecord: 135.2ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:25:02 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 107ms (Views: 102.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:26:18 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 62ms (Views: 58.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:30:05 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/facilities/1" for 127.0.0.1 at 2019-01-26 12:30:06 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3rUyBbFX33zSkNx/KncItWQUUp6YckPrtvAInGeW/mqFKKPjTUyrLipWZsaOBiBqsuuK2/afO3at0PsborEtng==", "id"=>"1"}
+No template found for FacilitiesController#destroy, rendering head :no_content
+Completed 204 No Content in 115ms (ActiveRecord: 0.0ms)
+
+
+Started DELETE "/facilities/1" for 127.0.0.1 at 2019-01-26 12:30:09 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3rUyBbFX33zSkNx/KncItWQUUp6YckPrtvAInGeW/mqFKKPjTUyrLipWZsaOBiBqsuuK2/afO3at0PsborEtng==", "id"=>"1"}
+No template found for FacilitiesController#destroy, rendering head :no_content
+Completed 204 No Content in 122ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1" for 127.0.0.1 at 2019-01-26 12:32:21 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFacility Load (0.2ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 110ms (Views: 76.8ms | ActiveRecord: 17.7ms)
+
+
+Started DELETE "/facilities/1" for 127.0.0.1 at 2019-01-26 12:32:23 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Y6wo8RHBrYHYay4L5x3fZ8RxaV3E/myEGCWQl4WA/Dc4MbkX7drZ0yCtlLJDbPe4Eo6xGKoTFBkDBWMQQKcvww==", "id"=>"1"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:34
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[36mFacility Destroy (2.0ms)[0m  [1m[31mDELETE FROM `facilities` WHERE `facilities`.`id` = 1[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[35m (96.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:35
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 105ms (ActiveRecord: 98.9ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:32:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for 127.0.0.1 at 2019-01-26 12:34:05 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (1.9ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered facilities/show.html.erb within layouts/application (293.2ms)
+Completed 500 Internal Server Error in 308ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `facility' for #<#<Class:0x00007fae33202ef0>:0x00007fae328d3280>
+Did you mean?  @facility):
+    31:           </section>
+    32:           <div>
+    33:             <a><%= link_to "編集する", edit_facility_url,class: "btn btn-light accent-text" %></a>
+    34:             <a><%= link_to "削除する", facility,method: :delete,data: {comfirm: "施設を#{@facility.name}削除します。よろしいですか？"},
+    35:               class: "btn btn-light accent-text"%></a>
+    36:           </div>
+    37:         </div>
+  
+app/views/facilities/show.html.erb:34:in `_app_views_facilities_show_html_erb___906675454098383253_70193074577100'
+Started GET "/facilities/2" for 127.0.0.1 at 2019-01-26 12:34:18 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2/edit" for 127.0.0.1 at 2019-01-26 12:34:20 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 81ms (Views: 77.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/facilities/2" for 127.0.0.1 at 2019-01-26 12:34:23 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"C1hrBGFcacMuECtXUDS+BPu+KAW9IznXzjkjyeBx6tVQxfrinUcdkdbWke70RZbbLUHwQNPOQUrVGdBOJVY5IQ==", "id"=>"2"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[36mFacility Destroy (0.3ms)[0m  [1m[31mDELETE FROM `facilities` WHERE `facilities`.`id` = 2[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[35m (127.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:35
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 133ms (ActiveRecord: 128.8ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:34:23 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 93ms (Views: 91.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/13" for 127.0.0.1 at 2019-01-26 12:35:05 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/facilities/13" for 127.0.0.1 at 2019-01-26 12:35:07 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WDDJIC3sLfDWdSRT8DOqPa9T5LPtU/0sGSb34h0k61gDrVjG0fdZoi6znupUQoLieaw89oO+hbECBgRl2AM4rA==", "id"=>"13"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[36mFacility Destroy (2.5ms)[0m  [1m[31mDELETE FROM `facilities` WHERE `facilities`.`id` = 13[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[35m (145.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:35
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 153ms (ActiveRecord: 148.4ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:35:07 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/12" for 127.0.0.1 at 2019-01-26 12:35:20 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mFacility Load (1.1ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 79ms (Views: 71.3ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/facilities/12" for 127.0.0.1 at 2019-01-26 12:35:38 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yVYKsuAxVEFk3ec7yNJZc3Mk8rsHcZtv56+Rpx0NtL+Sy5tUHCogE5wbXYJso3Gspdsq/mmc4/L8j2Ig2CpnSw==", "id"=>"12"}
+  [1m[36mFacility Load (7.7ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:34
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[36mFacility Destroy (1.5ms)[0m  [1m[31mDELETE FROM `facilities` WHERE `facilities`.`id` = 12[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[35m (156.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:35
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 170ms (ActiveRecord: 166.2ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:35:38 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 12:39:09 +0900
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+Started GET "/facilities/5" for 127.0.0.1 at 2019-01-26 12:39:13 +0900
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/ikedaryo/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFacility Load (1.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (6185.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (6194.6ms)
+Completed 200 OK in 7272ms (Views: 7242.5ms | ActiveRecord: 12.8ms)
+
+
+  Rendered shared/_header.html.erb (4565.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/show.html.erb within layouts/application (4574.3ms)
+Completed 200 OK in 4662ms (Views: 4651.1ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:42:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.2ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:42:12 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.8ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.8ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:35: syntax error, unexpected tSTRING_DEND, expecting ')'
+...セル",commit: "削除する"}, title: "Confirm！" );@outp...
+...                              ^):
+  
+app/views/facilities/show.html.erb:35: syntax error, unexpected tSTRING_DEND, expecting ')'
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:43:05 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:44:02 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:35: syntax error, unexpected ',', expecting '}'
+            ,cancel: "キャンセル",com...
+            ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:35: syntax error, unexpected ',', expecting ')'
+...    ,cancel: "キャンセル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:35: syntax error, unexpected '}', expecting ')'
+...セル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+...s: "btn btn-light accent-text", title: "Confirm！" );@outpu...
+...                              ^):
+  
+app/views/facilities/show.html.erb:35: syntax error, unexpected ',', expecting '}'
+app/views/facilities/show.html.erb:35: syntax error, unexpected ',', expecting ')'
+app/views/facilities/show.html.erb:35: syntax error, unexpected '}', expecting ')'
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:45:59 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+                ,cancel: "キャンセル",com...
+                ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+...    ,cancel: "キャンセル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+...セル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+...s: "btn btn-light accent-text", title: "Confirm！" );@outpu...
+...                              ^):
+  
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:46:37 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+                ,cancel: "キャンセル",com...
+                ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+...    ,cancel: "キャンセル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+...セル",commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+...s: "btn btn-light accent-text", title: "Confirm！" );@outpu...
+...                              ^):
+  
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:46:49 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.1ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 82ms (Views: 79.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:47:19 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered facilities/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+                , cancel: "キャンセル", c...
+                ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+...   , cancel: "キャンセル", commit: "削除する"},
+...                              ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+...セル", commit: "削除する"},
+...                               ^
+/Users/ikedaryo/projects/sourcetree/saunaapp4/app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+...s: "btn btn-light accent-text", title: "Confirm!" );@output_...
+...                              ^):
+  
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting '}'
+app/views/facilities/show.html.erb:36: syntax error, unexpected ',', expecting ')'
+app/views/facilities/show.html.erb:36: syntax error, unexpected '}', expecting ')'
+app/views/facilities/show.html.erb:37: syntax error, unexpected ',', expecting ')'
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:48:56 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 73ms (Views: 68.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/10" for 127.0.0.1 at 2019-01-26 12:48:58 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 86ms (Views: 82.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/10" for 127.0.0.1 at 2019-01-26 12:49:39 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/10" for 127.0.0.1 at 2019-01-26 12:51:59 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered facilities/show.html.erb within layouts/application (312.7ms)
+Completed 500 Internal Server Error in 325ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `facility' for #<#<Class:0x00007f9740a9c2f0>:0x00007f9742992510>
+Did you mean?  @facility):
+    33:             <a><%= link_to "編集する", edit_facility_url,class: "btn btn-light accent-text" %></a>
+    34:             <a><%= link_to "削除する", @facility,method: :delete,
+    35:               data: {
+    36:                 confirm: "施設#{facility.name}を削除します。よろしいですか?",
+    37:                 cancel: 'キャンセル',
+    38:                 commit: '削除する'
+    39:                 }, title: 'Confirm',
+  
+app/views/facilities/show.html.erb:36:in `_app_views_facilities_show_html_erb___3290579873156222719_70143817062420'
+Started GET "/facilities/10" for 127.0.0.1 at 2019-01-26 12:52:33 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 94ms (Views: 90.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/facilities/10" for 127.0.0.1 at 2019-01-26 12:52:38 +0900
+Processing by FacilitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x5oa97PsTU89/sGchOiSxgtEABbGf/u+yFxs5PAvvSmcB4sRT/c5HcU4eyUgmboZ3bvYU6iSgyPTfJ9jNQhu3Q==", "id"=>"10"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[36mFacility Destroy (0.3ms)[0m  [1m[31mDELETE FROM `facilities` WHERE `facilities`.`id` = 10[0m
+  ↳ app/controllers/facilities_controller.rb:35
+  [1m[35m (48.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:35
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 53ms (ActiveRecord: 49.3ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:52:39 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  [1m[36mFacility Load (0.7ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 63ms (Views: 59.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 12:52:57 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 68ms (Views: 64.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:53:03 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/11" for 127.0.0.1 at 2019-01-26 12:53:05 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered facilities/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 78ms (Views: 74.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/11/edit" for 127.0.0.1 at 2019-01-26 12:53:07 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/edit.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 96ms (Views: 90.3ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/facilities/11" for 127.0.0.1 at 2019-01-26 12:53:27 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GuoyTa0ITOnEkVrCvA7o+ntBv47SGcxQ0p9j8wQGktBBd6OrURM4uzxX4HsYf8Alrb5ny7z0tM3Jv5B0wSFBJA==", "facility"=>{"name"=>"ザサウナ", "address"=>"愛媛県", "description"=>"サウナー"}, "commit"=>"更新", "id"=>"11"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (0.5ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'ザサウナ', `description` = 'サウナー', `address` = '愛媛県', `updated_at` = '2019-01-26 03:53:27' WHERE `facilities`.`id` = 11[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (96.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 102ms (ActiveRecord: 97.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:53:27 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.0ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 89ms (Views: 86.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/8" for 127.0.0.1 at 2019-01-26 12:53:32 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+  Rendered facilities/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/8/edit" for 127.0.0.1 at 2019-01-26 12:53:33 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 89ms (Views: 85.5ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/facilities/8" for 127.0.0.1 at 2019-01-26 12:53:54 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MxaHUhW2IFTb7IkRCDRA8H1QSa7b+ZaVKWP0gkD877toixa06a1UBiMqM6isRWgvq6+R67UU7ggyQwcFhds8Tw==", "facility"=>{"name"=>"さうなパーフェクト", "address"=>"鹿児島県", "description"=>"パーフェクト"}, "commit"=>"更新", "id"=>"8"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (1.3ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'さうなパーフェクト', `description` = 'パーフェクト', `address` = '鹿児島県', `updated_at` = '2019-01-26 03:53:54' WHERE `facilities`.`id` = 8[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (23.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 29ms (ActiveRecord: 24.8ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:53:54 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 88ms (Views: 84.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities/9" for 127.0.0.1 at 2019-01-26 12:53:58 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 66ms (Views: 62.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/9/edit" for 127.0.0.1 at 2019-01-26 12:53:59 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/edit.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 82ms (Views: 77.9ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/facilities/9" for 127.0.0.1 at 2019-01-26 12:54:37 +0900
+Processing by FacilitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KQPJzcKYW3RSisSAIdNFwq9kMHBBKOVIsMuz+gXikO1ynlgrPoMvJqpMfjmFom0deZvoNS/FndWr60B9wMVDGQ==", "facility"=>{"name"=>"ハーベスト銭湯", "address"=>"長野県", "description"=>"ハーベスト"}, "commit"=>"更新", "id"=>"9"}
+  [1m[36mFacility Load (0.6ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mFacility Update (3.2ms)[0m  [1m[33mUPDATE `facilities` SET `name` = 'ハーベスト銭湯', `description` = 'ハーベスト', `address` = '長野県', `updated_at` = '2019-01-26 03:54:37' WHERE `facilities`.`id` = 9[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 10ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:54:37 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.3ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 81ms (Views: 77.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:54:40 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.4ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:54:43 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:54:51 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered facilities/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:55:25 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:55:29 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:57:55 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 101ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/conact" for 127.0.0.1 at 2019-01-26 12:57:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/conact"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/conact" for 127.0.0.1 at 2019-01-26 12:58:12 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/conact"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/" for 127.0.0.1 at 2019-01-26 12:58:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:58:25 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 224ms (Views: 221.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2019-01-26 12:58:27 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/contact"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:58:51 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 92ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2019-01-26 12:58:53 +0900
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/contact.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:59:02 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.8ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 104ms (Views: 83.8ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 12:59:04 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 64ms (Views: 58.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:59:05 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 12:59:06 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 66ms (Views: 62.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities/3/edit" for 127.0.0.1 at 2019-01-26 12:59:07 +0900
+Processing by FacilitiesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:24
+  Rendering facilities/edit.html.erb within layouts/application
+  Rendered shared/_header.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/edit.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 87ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 12:59:10 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 86ms (Views: 83.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/new" for 127.0.0.1 at 2019-01-26 12:59:12 +0900
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-26 12:59:19 +0900
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 13:00:12 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (2.8ms)
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.4ms)
+  Rendered facilities/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 13:01:13 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.1ms)
+  [1m[36mFacility Load (0.3ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered facilities/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/facilities" for 127.0.0.1 at 2019-01-26 13:01:48 +0900
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.5ms)
+  [1m[36mFacility Load (0.4ms)[0m  [1m[34mSELECT `facilities`.* FROM `facilities`[0m
+  ↳ app/views/facilities/index.html.erb:6
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/facilities/3" for 127.0.0.1 at 2019-01-26 13:01:51 +0900
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFacility Load (0.5ms)[0m  [1m[34mSELECT  `facilities`.* FROM `facilities` WHERE `facilities`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/facilities_controller.rb:7
+  Rendering facilities/show.html.erb within layouts/application
+  Rendered shared/_header.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+  Rendered facilities/show.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.5ms)
+
+
