@@ -22,6 +22,9 @@
         <a class="nav-item nav-link active" href="/facilities">サウナ一覧</a>
         <a class="nav-item nav-link active" href="/facilities/new">サウナ登録</a>
         <a class="nav-item nav-link disabled" href="#"></a>
+        <% if user_signed_in? %>
+        <%= link_to current_user.email, edit_user_registration_path, class:"nav-item nav-link active"  %>
+        <% end %>
       </div>
     </div>
     <!-- ドロップダウン -->
@@ -31,9 +34,13 @@
       <div class="dropdown-menu base-color ">
         <a class="dropdown-item accent-text" href="#">みんなのサウナなう</a>
         <a class="dropdown-item accent-text" href="#">お気に入りサウナ</a>
-        <a class="dropdown-item accent-text" href="/users/login">ログイン</a>
-        <a class="dropdown-item accent-text" href="#">アカウント</a>
-        <a class="dropdown-item accent-text" href="#">ログアウト</a>
+        <% if user_signed_in? %>
+          <%= link_to 'アカウント', "/users/#{current_user.id}", class:"dropdown-item accent-text"  %>
+          <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class:"dropdown-item accent-text"  %>
+        <% else %>
+          <%= link_to 'サインアップ', new_user_registration_path, class:"dropdown-item accent-text" %>
+          <%= link_to 'ログイン', new_user_session_path, class:"dropdown-item accent-text"  %>
+        <% end %>
       </div>
     </li>
   </ul>

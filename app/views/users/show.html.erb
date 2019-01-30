@@ -1,0 +1,43 @@
+  <%= render partial: 'shared/header' %>
+  <main>
+  <div class="py-4">
+      <div class="container">
+        <h3><%= @user.name%></h3><%= @user.id%>
+        <p class="sub-title small"><%= @user.email %></p>
+        <div class="row">
+          <!-- 左 -->
+          <div class="col-md-6">
+              <h5 class="mb-3">詳細</h5>
+              <!-- 表 -->
+              <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <th>コメント</th>
+                    <td><%= @user.password %></td>
+                  </tr>
+                  <tr>
+                    <th>そのた</th>
+                    <td>まだ実装してないよ</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <!-- 右 -->
+          <div class="col-md-6">
+            <section id="access">
+              <h5 class="mb-3">Map</h5>
+              <!-- 地図埋め込み -->
+              <p>画像いれたい</p>
+            </section>
+            <div>
+              <a><%= link_to "編集する", edit_user_registration_path,class: "btn btn-light accent-text" %></a>
+              <a><%= link_to '一覧へ', users_path, class: "btn btn-light accent-text"  %></a>
+              <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </main>
+
+  <%= render partial: "shared/footer" %>
