@@ -35,7 +35,7 @@
         <a class="dropdown-item accent-text" href="#">みんなのサウナなう</a>
         <a class="dropdown-item accent-text" href="#">お気に入りサウナ</a>
         <% if user_signed_in? %>
-          <%= link_to 'プロフィール変更', edit_user_registration_path, class:"dropdown-item accent-text"  %>
+          <%= link_to 'アカウント', "/users/#{current_user.id}", class:"dropdown-item accent-text"  %>
           <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class:"dropdown-item accent-text"  %>
         <% else %>
           <%= link_to 'サインアップ', new_user_registration_path, class:"dropdown-item accent-text" %>

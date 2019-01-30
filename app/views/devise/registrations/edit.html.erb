@@ -1,43 +1,98 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
-
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
-  <%= devise_error_messages! %>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
-
-  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
-    <% if @minimum_password_length %>
-      <br />
-      <em><%= @minimum_password_length %> characters minimum</em>
+<%= render partial: 'shared/header' %>
+<!--メイン -->
+<main>
+  <div class="container">
+    <h1>アカウント情報の編集</h1>
+    <p></p>
+    <!-- エラーメッセージ -->
+    <% if @user.errors.present? %>
+    <% @user.errors.full_messages.each do |message| %>
+    <p class="accent-text alert alert-danger small"><%= message %></p>
     <% end %>
+    <% end %>
+    <!-- エラーメッセージ -->
   </div>
+  <!-- 施設登録フォーム -->
+  <div class="py-3">
+    <div class="container">
+      <h3 class="mb-3"></h3>
+      <!-- フォーム -->
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+        <!-- 施設名 -->
+        <div class="form-group row">
+          <label for="name" class="col-md-3 col-form-label">
+            User name <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <%= f.text_field :name ,autofocus: true,class: "form-control",placeholder: "User name" %>
+          </div>
+        </div>
+        <!-- 所在地 -->
+        <div class="form-group row">
+          <label for="email" class="col-md-3 col-form-label">
+             Email <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+          <%= f.email_field :email, autocomplete: "email" ,class: "form-control",placeholder: "Email"%>
+          </div>
+        </div>
+        <!-- おすすめ設備 -->
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-md-3">
+              Admin
+            </legend>
+            <div class="col-md-9">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio1" value="answer1">
+                <label class="form-check-label" for="radio1">まだ</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="questionnaire" id="radio2" value="answer2">
+                <label class="form-check-label" for="radio2">実装してない</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <!-- 種類 -->
+
+        <!-- コメント -->
+        <div class="form-group row">
+          <label for="message" class="col-md-3 col-form-label">
+           Password <span class="badge badge-warning">必須</span>
+          </label>
+          <div class="col-md-9">
+            <%= f.password_field :password, autocomplete: "new-password",class: "form-control",placeholder: "New password" %>
+            <%= f.password_field :password_confirmation, autocomplete: "new-password confirmation",class: "form-control",placeholder: "New password confirmation" %>
+            <%= f.password_field :current_password, autocomplete: "current-password" ,class: "form-control",placeholder: "current password"%>
+          </div>
+        </div>
+        <!-- 確認ボタン -->
+        <div class="form-group row justify-content-end">
+          <div class="col-md-9">
+          <%= f.submit "更新",class: "btn btn-light accent-text"%>
+
+          </div>
+        </div>
+      <% end %>
+      <div class="form-group row justify-content-end">
+        <div class="col-md-9">
+        <%= button_to "アカウントの削除", registration_path(resource_name), data: {
+          confirm: "アカウント#{@user.name}を削除します。よろしいですか?",
+          cancel: 'キャンセル',
+          commit: '削除する'
+          }, title: 'Confirm',
+        class: "btn btn-light accent-text" , method: :delete %>
+        </div>
+        </div>
+      <!-- /フォーム -->
+    </div>
   </div>
+  <!-- / お問合せフォーム -->
+</main>
 
-  <div class="field">
-    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-    <%= f.password_field :current_password, autocomplete: "current-password" %>
-  </div>
 
-  <div class="actions">
-    <%= f.submit "Update" %>
-  </div>
-<% end %>
+<!-- メイン終わり-->
 
-<h3>Cancel my account</h3>
-
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
-
-<%= link_to "Back", :back %>
+<%= render partial: "shared/footer" %>
