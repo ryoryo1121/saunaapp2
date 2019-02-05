@@ -1,6 +1,6 @@
 class FacilitiesController < ApplicationController
   def index
-    @facilities = Facility.all
+    @facilities = Facility.page(params[:page]).per(5)
   end
 
   def show

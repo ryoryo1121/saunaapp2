@@ -23,7 +23,7 @@
         <a class="nav-item nav-link active" href="/facilities/new">サウナ登録</a>
         <a class="nav-item nav-link disabled" href="#"></a>
         <% if user_signed_in? %>
-        <%= link_to current_user.email, edit_user_registration_path, class:"nav-item nav-link active"  %>
+        <%= link_to current_user.name, edit_user_registration_path, class:"nav-item nav-link active"  %>
         <% end %>
       </div>
     </div>
