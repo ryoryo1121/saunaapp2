@@ -7,10 +7,15 @@
   <!-- 新しいビューのサンプル -->
 <div class ="container" >
   <!-- row1 -->
-  <div class =" row m-3 ">
+  <div class =" row m-3 justify-content-around">
     <!-- 画像col -->
-    <div class="col-md-3 m-2 p-1">
-      <%= image_tag( "no_image.png", alt: "photo" , style: "max-width: 200px;") %>
+    <div class="col-md-3 m-1 pr-1">
+
+      <% if facility.image.attached? %>
+         <%= image_tag( facility.image, size: "200x200") %>
+      <% else %>
+           <%= image_tag( "no_image.png", alt: "photo" , style: "max-width: 200px;") %>
+      <% end %>
     </div>
     <!-- 題名col -->
     <div class="col-md-8 m-3 p-1">
@@ -20,7 +25,19 @@
               <div>
                 <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
                 <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
-                  <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
+<div id=js-grid-juicy-projects>
+
+
+                <% if facility.favorite_user(current_user.id) %>
+         <%= link_to facility_favorite_path(favorite, facility_id: facility.id),method: :delete,class: ' fa fa-heart fa-x1', id: "heart-button",remote: true do %>
+
+         <% end %>
+         <% else %>
+         <%= link_to facility_favorites_path(facility),method: :post,class: ' fa fa-heart fa-x4',  id: "heart-button",remote: true do %>
+         <% end %>
+        <% end %>
+                  <a class=" ml-3"><i class="fa fa-heart fa-x2 "></i></a>
+                    </div>
               </div>
     </div>
     <!-- col終わり     -->

@@ -36,11 +36,13 @@ class FacilitiesController < ApplicationController
     redirect_to facilities_url, notice: "施設#{facility.name}を削除しました。"
   end
 
+  
+
   private
 
   def facility_params
     params.require(:facility).
-    permit(:name, :description, :address)
+    permit(:name, :description, :address, :image)
     # ストロングパラメーター
     # その他のパラメーターはあとで追加する
   end
