@@ -2,6 +2,14 @@
 
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
+  <!-- 検索機能 -->
+  <%= search_form_for @q do |f| %>
+  <%= f.label :name_cont, '施設名' %>
+  <%= f.search_field :name_cont %>
+  <div class="btn btn-light accent-text">
+    <%= f.submit '検索する' %>
+  </div>
+<% end %>
   <!-- ここに繰り返し分をいれる -->
    <% @facilities.each do |facility|%>
   <!-- 新しいビューのサンプル -->
@@ -29,11 +37,11 @@
 
 
                 <% if facility.favorite_user(current_user.id) %>
-         <%= link_to facility_favorite_path(favorite, facility_id: facility.id),method: :delete,class: ' fa fa-heart fa-x1', id: "heart-button",remote: true do %>
+         <%= link_to facility_favorite_path(facility_id: facility.id ,id: current_user.id ),method: :delete,class: ' fa fa-heart bg-primary favorite-delete', id: "heart-button",remote: true do %>
 
          <% end %>
          <% else %>
-         <%= link_to facility_favorites_path(facility),method: :post,class: ' fa fa-heart fa-x4',  id: "heart-button",remote: true do %>
+         <%= link_to facility_favorites_path(facility),method: :post,class: ' fa fa-heart bg-danger favorite-create',  id: "heart-button",remote: true do %>
          <% end %>
         <% end %>
                   <a class=" ml-3"><i class="fa fa-heart fa-x2 "></i></a>
