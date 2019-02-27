@@ -2,33 +2,53 @@
 
 <main>
   <!-- コンテンツ１ みんなのサウナ活動-->
+  <!-- 検索機能 -->
+  <%= search_form_for @q do |f| %>
+  <%= f.label :name_cont, '施設名' %>
+  <%= f.search_field :name_cont %>
+  <div class="btn btn-light accent-text">
+    <%= f.submit '検索する' %>
+  </div>
+<% end %>
   <!-- ここに繰り返し分をいれる -->
    <% @facilities.each do |facility|%>
   <!-- 新しいビューのサンプル -->
 <div class ="container" >
   <!-- row1 -->
-  <div class =" row m-3 ">
+  <div class =" row m-3 justify-content-around">
     <!-- 画像col -->
-    <div class="col-md-3 m-2 p-1">
-      <%= image_tag( "no_image.png", alt: "photo" , style: "max-width: 200px;") %>
+    <div class="col-md-3 m-1 pr-1">
+
+      <% if facility.image.attached? %>
+         <%= image_tag( facility.image, size: "200x200") %>
+      <% else %>
+           <%= image_tag( "no_image.png", alt: "photo" , style: "max-width: 200px;") %>
+      <% end %>
     </div>
     <!-- 題名col -->
     <div class="col-md-8 m-3 p-1">
         <p class="facility_name"><%=facility.name %></p>
         <p class="facility_address"><%=facility.address %></p>
-              <h6 class="mb-3"><%=facility.description %></h6>
-              <div>
-                <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
-                <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
-                  <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
-              </div>
+        <h6 class="mb-3"><%=facility.description %></h6>
+        <div>
+          <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
+          <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
+          <div id="js-button-<%= facility.id%>">
+            <%= render partial: 'favorites/favorite' ,locals:{facility: facility}%>
+          </div>
+        </div>
     </div>
+
     <!-- col終わり     -->
     </div>
 
   </div>
+
   <!-- 新しいビューのサンプル -->
   <% end %>
+  <div class ="container" >
+    <%= paginate @facilities %>
+    </div>
 
 </main>
 

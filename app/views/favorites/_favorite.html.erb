@@ -1,0 +1,7 @@
+<% if facility.favorite_user(current_user.id) %>
+ <%= link_to facility_favorite_path(facility_id: facility.id ,id: current_user.id ),method: :delete,class: ' fa fa-heart bg-primary ',remote: true do %>
+ <% end %>
+ <% else %>
+ <%= link_to facility_favorites_path(facility),method: :post,class: ' fa fa-heart bg-danger ',remote: true do %>
+ <% end %>
+<% end %>
