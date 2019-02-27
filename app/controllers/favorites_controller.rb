@@ -3,16 +3,20 @@ class FavoritesController < ApplicationController
 
 
   def create
+
     @favorite = Favorite.create(user_id: current_user.id, facility_id: params[:facility_id])
     @favorites = Favorite.where(facility_id: params[:facility_id])
     @facility.reload
+    head :no_content
   end
 
   def destroy
-    favorite = Favorite.find_by(user_id: current_user.id, facility_id: params[:facility_id])
-    favorite.destroy
+
+    @favorite = Favorite.find_by(user_id: current_user.id, facility_id: params[:facility_id])
+    @favorite.destroy
     @favorites = Favorite.where(facility_id: params[:facility_id])
     @facility.reload
+    head :no_content
   end
 
   private

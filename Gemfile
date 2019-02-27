@@ -66,3 +66,5 @@ gem "font-awesome-rails"
 gem 'data-confirm-modal'
 gem 'devise'
 gem 'kaminari'
+gem 'ransack'
+gem 'pry-byebug'

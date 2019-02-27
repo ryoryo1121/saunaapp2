@@ -29,25 +29,16 @@
     <div class="col-md-8 m-3 p-1">
         <p class="facility_name"><%=facility.name %></p>
         <p class="facility_address"><%=facility.address %></p>
-              <h6 class="mb-3"><%=facility.description %></h6>
-              <div>
-                <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
-                <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
-<div id=js-grid-juicy-projects>
-
-
-                <% if facility.favorite_user(current_user.id) %>
-         <%= link_to facility_favorite_path(facility_id: facility.id ,id: current_user.id ),method: :delete,class: ' fa fa-heart bg-primary favorite-delete', id: "heart-button",remote: true do %>
-
-         <% end %>
-         <% else %>
-         <%= link_to facility_favorites_path(facility),method: :post,class: ' fa fa-heart bg-danger favorite-create',  id: "heart-button",remote: true do %>
-         <% end %>
-        <% end %>
-                  <a class=" ml-3"><i class="fa fa-heart fa-x2 "></i></a>
-                    </div>
-              </div>
+        <h6 class="mb-3"><%=facility.description %></h6>
+        <div>
+          <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
+          <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
+          <div id="js-button-<%= facility.id%>">
+            <%= render partial: 'favorites/favorite' ,locals:{facility: facility}%>
+          </div>
+        </div>
     </div>
+
     <!-- col終わり     -->
     </div>
 

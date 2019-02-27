@@ -1,6 +1,8 @@
 class FacilitiesController < ApplicationController
   def index
     @facilities = Facility.page(params[:page]).per(5)
+    @q = @facilities.ransack(params[:q])
+    @facilities = @q.result(distinct: true)
   end
 
   def show
@@ -36,7 +38,7 @@ class FacilitiesController < ApplicationController
     redirect_to facilities_url, notice: "施設#{facility.name}を削除しました。"
   end
 
-  
+
 
   private
 

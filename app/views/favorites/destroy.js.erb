@@ -1,1 +1,1 @@
-$("#heart-button").html("<%= j(render partial: 'favorite', locals: { facilities: @facilities, favorites: @favorites }) %>");
+$('#js-button-<%= facility.id%>').html("<%= j(render partial: 'favorite', locals: { facility: facility}) %>");
