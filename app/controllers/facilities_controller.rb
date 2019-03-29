@@ -7,6 +7,9 @@ class FacilitiesController < ApplicationController
 
   def show
     @facility = Facility.find(params[:id])
+    @comments = @facility.comments.includes(:user)
+    @comment = Comment.new
+
   end
 
   def new
