@@ -30,8 +30,10 @@
               <p>画像いれたい</p>
             </section>
             <div>
+              <% if current_user.admin? %>
               <a><%= link_to "編集する", edit_user_registration_path,class: "btn btn-light accent-text" %></a>
               <a><%= link_to '一覧へ', users_path, class: "btn btn-light accent-text"  %></a>
+              <% end %>
               <a class=" ml-3"><i class="fa fa-heart fa-x2"></i></a>
             </div>
           </div>

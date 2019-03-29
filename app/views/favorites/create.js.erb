@@ -1,1 +1,4 @@
-$('#js-button-<%= facility.id%>').html("<%= j(render partial: 'favorite', locals: { facility: facility, favorite: @favorite}) %>")
+alert("hello")
+$("#js-button-2-<%= facility.id%>").html("<%= j(render partial: 'favorite', locals: { facility: facility, favorite: @favorite}) %>")
+like = "<%= j(render partial: 'favorite', locals: { facility: facility, favorite: @favorite}) %>"
+console.log("テスト")
