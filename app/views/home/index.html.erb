@@ -39,18 +39,18 @@
       <p class="sub-title">サウナ活動をシェアしましょう</p>
     </div>
     </div>
-    <!-- 繰り返し分 -->
+    <!-- 繰り返し分２ -->
 
-    <% a = [0,1,2,3,4,5,6,7,8]%>
-    <% a.each do |i|%>
+
+<% @comment.each do |comment|%>
     <div class="container bg-light">
     <div class="media mb-2">
       <a  class="mr-3 "href="/"><%= image_tag( "no_image.png",alt: "user",size: "100x100" ,class: "rounded-circle") %></a>
     <!-- 画像 -->
       <div class="media-body">
 
-      <h5>サウナユーザー</h5>
-      <span class="small ">今日行ったサウナはよかった</span>
+      <h5><%= comment.user.name %></h5>
+      <span class="small "><%= comment.text %></span>
       <p class="text-right mr-5"><i class="fa fa-heart fa-x2"></i></p>
     </div>
     </div>

@@ -48,7 +48,7 @@
 <!-- コメント欄 -->
 <div class="container">
   <%= form_for [@facility,@comment]  do |form| %>
-  <div class="col-md-9">
+  <div class="">
     <%= form.text_field :text ,class: "form-control" %>
 
   </div>
@@ -57,14 +57,16 @@
   <% end %>
   <!-- コメントの表示 -->
 
-  <div class="col-md-8 m-3 p-1">
+  <div class=" m-3 p-1">
     <% @comments.each do |comment|%>
-    <p class="h3"><%=comment.user_id %></p>
-    <p class="small"><%=comment.facility_id%></p>
-    <h6 class="mb-3"><%= comment.text %></h6>
+    <div class="mb-3 bg-light">
+      <p class="h5"><%=comment.user.name %></p>
+      <!-- <p class="small"><%=comment.facility.name%></p> -->
+      <h6 class="small"><%= comment.text %></h6>
+      </div>
 
     <% end %>
   </div>
 </div>
-
+<h5>コメント数：<%= @comments.count%></h5>
 <%= render partial: "shared/footer" %>

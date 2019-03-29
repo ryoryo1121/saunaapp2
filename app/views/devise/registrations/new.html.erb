@@ -28,6 +28,18 @@
   <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> -->
   <%= f.password_field :password, autocomplete: "new-password",class: "form-control",placeholder: "New password" %>
   <%= f.password_field :password_confirmation, autocomplete: "new-password",class: "form-control",placeholder: "New password(confirmation)" %>
+
+  <!-- 画像 -->
+   <div class="my-2">
+    <p>
+      User image
+      <%= f.file_field :image %>
+          </p>
+    </div>
+
+
+   <!-- がそう終わり -->
+
   <!-- チェックボックス -->
   <% if devise_mapping.rememberable? -%>
     <div class="field checkbox mb-3">
