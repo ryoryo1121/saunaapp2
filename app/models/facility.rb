@@ -1,12 +1,17 @@
 class Facility < ApplicationRecord
+  geocoded_by :address
+after_validation :geocode, if: lambda {|obj| obj.address_changed?}
   validates :name, presence: true
   # validates :address, presence: true
   has_one_attached :image
-  has_many :favorites, dependent: :destroy
-  has_many :comments, dependent: :destroy
+  has_many :favorite, dependent: :destroy
+  has_many :comment, dependent: :destroy
+
+
+
 
   def favorite_user(id)
-   favorites.find_by(user_id: id)
+   favorite.find_by(user_id: id)
   end
 
 end

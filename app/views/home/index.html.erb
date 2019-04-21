@@ -42,7 +42,7 @@
     <!-- 繰り返し分２ -->
 
 
-<% @comment.each do |comment|%>
+<% @comments.each do |comment|%>
     <div class="container bg-light">
     <div class="media mb-2">
       <a  class="mr-3 "href="/"><%= image_tag( "no_image.png",alt: "user",size: "100x100" ,class: "rounded-circle") %></a>
@@ -61,6 +61,9 @@
     <% end %>
 
     <!-- 繰り返し終わり -->
+    <div class ="container" >
+      <%= paginate @comments %>
+      </div>
 
 
 

@@ -33,7 +33,7 @@
         <div>
           <a><%= link_to "詳しく見る", facility,class: "btn btn-light accent-text" %></a>
           <a href="#" class="card-link btn btn-light accent-text">あとで見る</a>
-          <div id="js-button-<%= facility.id%>">
+          <div id="js-button-<%= facility.id%>" class=”favorite”>
             <%= render partial: 'favorites/favorite' ,locals:{facility: facility}%>
           </div>
         </div>
@@ -53,3 +53,9 @@
 </main>
 
 <%= render partial: "shared/footer" %>
+
+<script>
+$(".favorite").click(function(){
+    location.reload();
+})
+</script>

@@ -17,7 +17,7 @@
                 </tr>
                 <tr>
                   <th>おすすめ設備</th>
-                  <td>まだ実装してないよ</td>
+                  <td>まだ実装してないよ<%= @facility.latitude %></td>
                 </tr>
               </tbody>
             </table>
@@ -28,6 +28,7 @@
             <h5 class="mb-3">Map</h5>
             <!-- 地図埋め込み -->
             <p>地図入れたい</p>
+
           </section>
           <div>
             <a><%= link_to "編集する", edit_facility_url,class: "btn btn-light accent-text" %></a>
@@ -69,4 +70,85 @@
   </div>
 </div>
 <h5>コメント数：<%= @comments.count%></h5>
+<%= @facility.latitude %>
+
+<div id="map" style='width: 100%; height: 500px;'></div>
+
+<script type="text/javascript">
+handler = Gmaps.build('Google');
+handler.buildMap({ provider: { scrollwheel: false }, internal: {id: 'map'}}, function(){
+markers = handler.addMarkers([
+{
+"lat": <%= @facility.latitude %>,
+"lng": <%= @facility.longitude %>,
+"infowindow": '<p><%= @facility.name %></p><p><%= @facility.address %></p><p><%= link_to "Googleマップで見る" ,"https://maps.google.co.jp/maps?q=loc:#{@facility.latitude},#{@facility.longitude}&iwloc=J",target: "_blank" %></p>'
+}
+]);
+handler.bounds.extendWith(markers);
+handler.fitMapToBounds();
+handler.getMap().setZoom(17);
+});
+</script>
+
+<!-- テスト２ -->
+<script type="text/javascript">
+    function initMap() {
+
+        var test ={lat: <%= @facility.latitude %>, lng: <%= @facility.longitude %>};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: test
+        });
+        var transitLayer = new google.maps.TransitLayer();
+        transitLayer.setMap(map);
+
+        var contentString = '住所：<%= @facility.address %>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+            position:test,
+            map: map,
+            title: contentString
+        });
+
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCe1HI2V0o3yGWxgZIaLGwsjoJ_i4hkRVc&callback=initMap">
+</script>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @facility.address %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @facility.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @facility.longitude %>
+</p>
+
+<style type="text/css">
+  #map { height: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    width: 80%;}
+</style>
+<div id="map"></div>
+
+<%= link_to 'Edit', facility_path(@facility) %> |
+<%= link_to 'Back', facility_path %>
+
 <%= render partial: "shared/footer" %>

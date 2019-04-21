@@ -73,3 +73,7 @@ gem 'devise'
 gem 'kaminari'
 gem 'ransack'
 gem 'pry-byebug'
+gem "gmaps4rails"
+gem "geocoder"
+
+gem "rails_12facter", group: :production

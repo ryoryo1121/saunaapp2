@@ -5,10 +5,12 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+
+
     <%= stylesheet_link_tag    'application', media: 'all'  %>
     <%= javascript_include_tag 'application' %>
     <%= favicon_link_tag('favicon.ico') %>
-  
+
     <% if flash.notice %>
       <p class= "alert alert-primary alert-dismissible fade show mb-0" >
         <%= flash.notice %>

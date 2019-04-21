@@ -7,7 +7,7 @@ class FacilitiesController < ApplicationController
 
   def show
     @facility = Facility.find(params[:id])
-    @comments = @facility.comments.includes(:user)
+    @comments = @facility.comment.includes(:user)
     @comment = Comment.new
 
   end
@@ -30,8 +30,8 @@ class FacilitiesController < ApplicationController
   end
 
   def update
-    facility = Facility.find(params[:id])
-    facility.update!(facility_params)
+    @facility = Facility.find(params[:id])
+    @facility.update!(facility_params)
     redirect_to facilities_url, notice: "施設を更新しました。"
   end
 
@@ -47,7 +47,7 @@ class FacilitiesController < ApplicationController
 
   def facility_params
     params.require(:facility).
-    permit(:name, :description, :address, :image)
+    permit(:name, :description, :address, :image, :latitude, :longitude)
     # ストロングパラメーター
     # その他のパラメーターはあとで追加する
   end
